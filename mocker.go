@@ -24,8 +24,26 @@ func main() {
 		syscall.CLONE_NEWNET |
 		syscall.CLONE_NEWUSER
 
+	uidMappings := []syscall.SysProcIDMap{
+		{
+			ContainerID: 0,
+			HostID:      os.Getuid(),
+			Size:        1,
+		},
+	}
+
+	gidMappings := []syscall.SysProcIDMap{
+		{
+			ContainerID: 0,
+			HostID:      os.Getgid(),
+			Size:        1,
+		},
+	}
+
 	sysProcAttr := &syscall.SysProcAttr{
 		Cloneflags: uintptr(cloneFlags),
+		UidMappings: uidMappings,
+		GidMappings: gidMappings,
 	}
 
 	cmd := exec.Command(command)
