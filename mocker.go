@@ -7,14 +7,24 @@ import (
 	"os"
 	"os/exec"
 	"syscall"
+	"time"
 
 	"github.com/docker/docker/pkg/reexec"
 )
 
 func init() {
+	t := time.Now().UnixNano()
+	fmt.Printf("%v - init() - PPID: %d\n", t, os.Getppid())
+	fmt.Printf("%v - init() - PID: %d\n", t, os.Getpid())
+	fmt.Printf("%v - init() - os.Args: %v\n", t, os.Args)
 	reexec.Register("nsInitialisation", nsInitialisation)
-	if reexec.Init() {
+	if i := reexec.Init(); i == true {
+		fmt.Printf("%v - init() - reexec.Init() is %v, exiting\n", t, i)
+		fmt.Printf("%v - ------\n", t)
 		os.Exit(0)
+	} else {
+		fmt.Printf("%v - init() - reexec.Init() is %v, continuing\n", t, i)
+		fmt.Printf("%v - ------\n", t)
 	}
 }
 
@@ -69,7 +79,7 @@ func main() {
 	}
 
 	sysProcAttr := &syscall.SysProcAttr{
-		Cloneflags: uintptr(cloneFlags),
+		Cloneflags:  uintptr(cloneFlags),
 		UidMappings: uidMappings,
 		GidMappings: gidMappings,
 	}
