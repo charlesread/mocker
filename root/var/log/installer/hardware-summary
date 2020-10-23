@@ -1,0 +1,839 @@
+uname -a: Linux bad 4.19.0-11-amd64 #1 SMP Debian 4.19.146-1 (2020-09-17) x86_64 GNU/Linux
+lspci -knn: 00:00.0 Host bridge [0600]: Intel Corporation 82P965/G965 Memory Controller Hub [8086:29a0] (rev 02)
+lspci -knn: 	Subsystem: Parallels, Inc. Device [1ab8:0400]
+lspci -knn: 00:01.0 PCI bridge [0604]: Intel Corporation 82G35 Express PCI Express Root Port [8086:2981] (rev 02)
+lspci -knn: 00:03.0 Unassigned class [ff00]: Parallels, Inc. Virtual Machine Communication Interface [1ab8:4000]
+lspci -knn: 	Subsystem: Parallels, Inc. Device [1ab8:0400]
+lspci -knn: 00:05.0 Ethernet controller [0200]: Red Hat, Inc Virtio network device [1af4:1000]
+lspci -knn: 	Subsystem: Red Hat, Inc Device [1af4:0001]
+lspci -knn: 	Kernel driver in use: virtio-pci
+lspci -knn: 	Kernel modules: virtio_pci
+lspci -knn: 00:0a.0 PCI bridge [0604]: Digital Equipment Corporation DECchip 21150 [1011:0022]
+lspci -knn: 00:0e.0 RAM memory [0500]: Red Hat, Inc Virtio memory balloon [1af4:1002]
+lspci -knn: 	Subsystem: Red Hat, Inc Device [1af4:0005]
+lspci -knn: 	Kernel driver in use: virtio-pci
+lspci -knn: 	Kernel modules: virtio_pci
+lspci -knn: 00:1d.0 USB controller [0c03]: Intel Corporation 82801FB/FBM/FR/FW/FRW (ICH6 Family) USB UHCI #1 [8086:2658] (rev 02)
+lspci -knn: 	Subsystem: Parallels, Inc. Device [1ab8:0400]
+lspci -knn: 	Kernel driver in use: uhci_hcd
+lspci -knn: 	Kernel modules: uhci_hcd
+lspci -knn: 00:1d.6 USB controller [0c03]: NEC Corporation uPD720200 USB 3.0 Host Controller [1033:0194] (rev 04)
+lspci -knn: 	Subsystem: Parallels, Inc. Device [1ab8:0400]
+lspci -knn: 	Kernel driver in use: xhci_hcd
+lspci -knn: 	Kernel modules: xhci_pci
+lspci -knn: 00:1d.7 USB controller [0c03]: Intel Corporation 82801FB/FBM/FR/FW/FRW (ICH6 Family) USB2 EHCI Controller [8086:265c] (rev 02)
+lspci -knn: 	Subsystem: Parallels, Inc. Device [1ab8:0400]
+lspci -knn: 	Kernel driver in use: ehci-pci
+lspci -knn: 	Kernel modules: ehci_pci
+lspci -knn: 00:1e.0 PCI bridge [0604]: Intel Corporation 82801 PCI Bridge [8086:244e] (rev f2)
+lspci -knn: 00:1f.0 ISA bridge [0601]: Intel Corporation 82801HB/HR (ICH8/R) LPC Interface Controller [8086:2810] (rev 02)
+lspci -knn: 	Subsystem: Parallels, Inc. Device [1ab8:0400]
+lspci -knn: 00:1f.1 IDE interface [0101]: Intel Corporation 82801BA IDE U100 Controller [8086:244b] (rev 05)
+lspci -knn: 	Subsystem: Parallels, Inc. Device [1ab8:0400]
+lspci -knn: 	Kernel driver in use: ata_piix
+lspci -knn: 	Kernel modules: ata_piix, ata_generic
+lspci -knn: 00:1f.2 SATA controller [0106]: Intel Corporation 82801HR/HO/HH (ICH8R/DO/DH) 6 port SATA Controller [AHCI mode] [8086:2821] (rev 02)
+lspci -knn: 	Subsystem: Parallels, Inc. Device [1ab8:0400]
+lspci -knn: 	Kernel driver in use: ahci
+lspci -knn: 	Kernel modules: ahci
+lspci -knn: 00:1f.3 SMBus [0c05]: Intel Corporation 82801H (ICH8 Family) SMBus Controller [8086:283e] (rev 02)
+lspci -knn: 	Subsystem: Parallels, Inc. Device [1ab8:0400]
+lspci -knn: 00:1f.4 Multimedia audio controller [0401]: Intel Corporation 82801BA/BAM AC'97 Audio Controller [8086:2445] (rev 02)
+lspci -knn: 	Subsystem: Parallels, Inc. Device [1ab8:0400]
+lspci -knn: 	Kernel driver in use: snd_intel8x0
+lspci -knn: 	Kernel modules: snd_intel8x0
+lspci -knn: 01:00.0 VGA compatible controller [0300]: Red Hat, Inc Virtio GPU [1af4:1050] (rev 01)
+lspci -knn: 	Subsystem: Red Hat, Inc Device [1af4:0010]
+lspci -knn: 	Kernel driver in use: virtio-pci
+lspci -knn: 	Kernel modules: virtio_pci
+usb-list: 
+usb-list: Bus 01 Device 01: UHCI Host Controller [1d6b:0001]
+usb-list:    Level 00 Parent 00 Port 00  Class 09(hub  ) Subclass 00 Protocol 00
+usb-list:    Manufacturer: Linux 4.19.0-11-amd64 uhci_hcd
+usb-list:    Interface 00: Class 09(hub  ) Subclass 00 Protocol 00 Driver hub
+usb-list: 
+usb-list: Bus 01 Device 02: Virtual Mouse [203a:fffc]
+usb-list:    Level 01 Parent 01 Port 00  Class 00(>ifc ) Subclass 00 Protocol 00
+usb-list:    Manufacturer: Parallels
+usb-list:    Interface 00: Class 03(HID  ) Subclass 00 Protocol 02 Driver usbhid
+usb-list:    Interface 01: Class 03(HID  ) Subclass 00 Protocol 02 Driver usbhid
+usb-list: 
+usb-list: Bus 02 Device 01: xHCI Host Controller [1d6b:0002]
+usb-list:    Level 00 Parent 00 Port 00  Class 09(hub  ) Subclass 00 Protocol 01
+usb-list:    Manufacturer: Linux 4.19.0-11-amd64 xhci-hcd
+usb-list:    Interface 00: Class 09(hub  ) Subclass 00 Protocol 00 Driver hub
+usb-list: 
+usb-list: Bus 03 Device 01: xHCI Host Controller [1d6b:0003]
+usb-list:    Level 00 Parent 00 Port 00  Class 09(hub  ) Subclass 00 Protocol 03
+usb-list:    Manufacturer: Linux 4.19.0-11-amd64 xhci-hcd
+usb-list:    Interface 00: Class 09(hub  ) Subclass 00 Protocol 00 Driver hub
+usb-list: 
+usb-list: Bus 03 Device 02: FaceTime HD Camera (Built-in) [203a:fff9]
+usb-list:    Level 01 Parent 01 Port 00  Class ef(misc ) Subclass 02 Protocol 01
+usb-list:    Manufacturer: Parallels
+usb-list:    Interface 00: Class 0e(video) Subclass 01 Protocol 00 Driver <none>
+usb-list:    Interface 01: Class 0e(video) Subclass 02 Protocol 00 Driver <none>
+usb-list: 
+usb-list: Bus 04 Device 01: EHCI Host Controller [1d6b:0002]
+usb-list:    Level 00 Parent 00 Port 00  Class 09(hub  ) Subclass 00 Protocol 00
+usb-list:    Manufacturer: Linux 4.19.0-11-amd64 ehci_hcd
+usb-list:    Interface 00: Class 09(hub  ) Subclass 00 Protocol 00 Driver hub
+lsmod: Module                  Size  Used by
+lsmod: ufs                    86016  0
+lsmod: qnx4                   16384  0
+lsmod: hfsplus               118784  0
+lsmod: hfs                    69632  0
+lsmod: minix                  40960  0
+lsmod: msdos                  20480  0
+lsmod: fuse                  122880  0
+lsmod: dm_mod                155648  0
+lsmod: md_mod                167936  0
+lsmod: xfs                  1458176  0
+lsmod: jfs                   208896  0
+lsmod: btrfs                1400832  0
+lsmod: xor                    24576  1 btrfs
+lsmod: zstd_decompress        81920  1 btrfs
+lsmod: zstd_compress         172032  1 btrfs
+lsmod: xxhash                 16384  2 zstd_compress,zstd_decompress
+lsmod: raid6_pq              122880  1 btrfs
+lsmod: libcrc32c              16384  2 btrfs,xfs
+lsmod: vfat                   20480  0
+lsmod: fat                    86016  2 msdos,vfat
+lsmod: ext4                  741376  1
+lsmod: crc16                  16384  1 ext4
+lsmod: mbcache                16384  1 ext4
+lsmod: jbd2                  122880  1 ext4
+lsmod: crc32c_generic         16384  3
+lsmod: fscrypto               32768  1 ext4
+lsmod: ecb                    16384  0
+lsmod: virtio_net             53248  0
+lsmod: net_failover           20480  1 virtio_net
+lsmod: failover               16384  1 net_failover
+lsmod: nls_utf8               16384  0
+lsmod: isofs                  49152  0
+lsmod: usb_storage            73728  0
+lsmod: vga16fb                24576  0
+lsmod: vgastate               20480  1 vga16fb
+lsmod: sr_mod                 28672  0
+lsmod: cdrom                  65536  1 sr_mod
+lsmod: sd_mod                 61440  3
+lsmod: ata_generic            16384  0
+lsmod: hid_generic            16384  0
+lsmod: usbhid                 57344  0
+lsmod: hid                   139264  2 usbhid,hid_generic
+lsmod: virtio_gpu             61440  2
+lsmod: drm_kms_helper        208896  1 virtio_gpu
+lsmod: ttm                   126976  1 virtio_gpu
+lsmod: drm                   495616  5 drm_kms_helper,virtio_gpu,ttm
+lsmod: ata_piix               36864  0
+lsmod: virtio_balloon         20480  0
+lsmod: ahci                   40960  2
+lsmod: ehci_pci               16384  0
+lsmod: libahci                40960  1 ahci
+lsmod: snd_intel8x0           45056  0
+lsmod: xhci_pci               16384  0
+lsmod: snd_ac97_codec        147456  1 snd_intel8x0
+lsmod: libata                270336  4 ata_piix,libahci,ahci,ata_generic
+lsmod: xhci_hcd              266240  1 xhci_pci
+lsmod: ac97_bus               16384  1 snd_ac97_codec
+lsmod: snd_pcm               114688  2 snd_intel8x0,snd_ac97_codec
+lsmod: uhci_hcd               49152  0
+lsmod: ehci_hcd               94208  1 ehci_pci
+lsmod: snd_timer              36864  1 snd_pcm
+lsmod: psmouse               172032  0
+lsmod: snd                    94208  4 snd_intel8x0,snd_timer,snd_ac97_codec,snd_pcm
+lsmod: soundcore              16384  1 snd
+lsmod: evdev                  28672  4
+lsmod: usbcore               294912  7 xhci_hcd,ehci_pci,usbhid,usb_storage,ehci_hcd,xhci_pci,uhci_hcd
+lsmod: scsi_mod              249856  4 sd_mod,usb_storage,libata,sr_mod
+lsmod: usb_common             16384  1 usbcore
+lsmod: virtio_pci             28672  0
+lsmod: virtio_ring            28672  4 virtio_balloon,virtio_gpu,virtio_pci,virtio_net
+lsmod: virtio                 16384  4 virtio_balloon,virtio_gpu,virtio_pci,virtio_net
+df: Filesystem           1K-blocks      Used Available Use% Mounted on
+df: none                    203696       108    203588   0% /run
+df: devtmpfs                993536         0    993536   0% /dev
+df: /dev/sda1             63728300   1341464  59119920   2% /target
+df: /dev/sda1             63728300   1341464  59119920   2% /dev/.static/dev
+df: devtmpfs                993536         0    993536   0% /target/dev
+free:               total        used        free      shared  buff/cache   available
+free: Mem:        2036948      213536      489012      243640     1334400     1507284
+free: Swap:       2095100         768     2094332
+/proc/cmdline: BOOT_IMAGE=/install.amd/vmlinuz vga=788 initrd=/install.amd/gtk/initrd.gz --- quiet 
+/proc/cpuinfo: processor	: 0
+/proc/cpuinfo: vendor_id	: GenuineIntel
+/proc/cpuinfo: cpu family	: 6
+/proc/cpuinfo: model		: 158
+/proc/cpuinfo: model name	: Intel(R) Core(TM) i9-9980HK CPU @ 2.40GHz
+/proc/cpuinfo: stepping	: 13
+/proc/cpuinfo: microcode	: 0xca
+/proc/cpuinfo: cpu MHz		: 2400.000
+/proc/cpuinfo: cache size	: 16384 KB
+/proc/cpuinfo: physical id	: 0
+/proc/cpuinfo: siblings	: 2
+/proc/cpuinfo: core id		: 0
+/proc/cpuinfo: cpu cores	: 2
+/proc/cpuinfo: apicid		: 0
+/proc/cpuinfo: initial apicid	: 0
+/proc/cpuinfo: fpu		: yes
+/proc/cpuinfo: fpu_exception	: yes
+/proc/cpuinfo: cpuid level	: 22
+/proc/cpuinfo: wp		: yes
+/proc/cpuinfo: flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx rdtscp lm constant_tsc nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 invpcid mpx rdseed adx smap clflushopt xsaveopt xsavec xsaves dtherm arat pln pts
+/proc/cpuinfo: bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit srbds
+/proc/cpuinfo: bogomips	: 4800.00
+/proc/cpuinfo: clflush size	: 64
+/proc/cpuinfo: cache_alignment	: 64
+/proc/cpuinfo: address sizes	: 36 bits physical, 48 bits virtual
+/proc/cpuinfo: power management:
+/proc/cpuinfo: 
+/proc/cpuinfo: processor	: 1
+/proc/cpuinfo: vendor_id	: GenuineIntel
+/proc/cpuinfo: cpu family	: 6
+/proc/cpuinfo: model		: 158
+/proc/cpuinfo: model name	: Intel(R) Core(TM) i9-9980HK CPU @ 2.40GHz
+/proc/cpuinfo: stepping	: 13
+/proc/cpuinfo: microcode	: 0xca
+/proc/cpuinfo: cpu MHz		: 2400.000
+/proc/cpuinfo: cache size	: 16384 KB
+/proc/cpuinfo: physical id	: 0
+/proc/cpuinfo: siblings	: 2
+/proc/cpuinfo: core id		: 1
+/proc/cpuinfo: cpu cores	: 2
+/proc/cpuinfo: apicid		: 1
+/proc/cpuinfo: initial apicid	: 1
+/proc/cpuinfo: fpu		: yes
+/proc/cpuinfo: fpu_exception	: yes
+/proc/cpuinfo: cpuid level	: 22
+/proc/cpuinfo: wp		: yes
+/proc/cpuinfo: flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx rdtscp lm constant_tsc nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 invpcid mpx rdseed adx smap clflushopt xsaveopt xsavec xsaves dtherm arat pln pts
+/proc/cpuinfo: bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit srbds
+/proc/cpuinfo: bogomips	: 4800.00
+/proc/cpuinfo: clflush size	: 64
+/proc/cpuinfo: cache_alignment	: 64
+/proc/cpuinfo: address sizes	: 36 bits physical, 48 bits virtual
+/proc/cpuinfo: power management:
+/proc/cpuinfo: 
+/proc/ioports: 0000-0cf7 : PCI Bus 0000:00
+/proc/ioports:   0000-001f : dma1
+/proc/ioports:   0020-0021 : pic1
+/proc/ioports:   0040-0043 : timer0
+/proc/ioports:   0050-0053 : timer1
+/proc/ioports:   0060-0060 : keyboard
+/proc/ioports:   0061-0061 : PNP0800:00
+/proc/ioports:   0062-0062 : PNP0C09:00
+/proc/ioports:     0062-0062 : EC data
+/proc/ioports:   0064-0064 : keyboard
+/proc/ioports:   0066-0066 : PNP0C09:00
+/proc/ioports:     0066-0066 : EC cmd
+/proc/ioports:   0070-0075 : rtc0
+/proc/ioports:   0080-008f : dma page reg
+/proc/ioports:   00a0-00a1 : pic2
+/proc/ioports:   00c0-00df : dma2
+/proc/ioports:   00f0-00ff : PNP0C04:00
+/proc/ioports:     00f0-00ff : fpu
+/proc/ioports:   0170-0177 : 0000:00:1f.1
+/proc/ioports:     0170-0177 : ata_piix
+/proc/ioports:   01f0-01f7 : 0000:00:1f.1
+/proc/ioports:     01f0-01f7 : ata_piix
+/proc/ioports:   0376-0376 : 0000:00:1f.1
+/proc/ioports:     0376-0376 : ata_piix
+/proc/ioports:   03c0-03df : vesafb
+/proc/ioports:   03f6-03f6 : 0000:00:1f.1
+/proc/ioports:     03f6-03f6 : ata_piix
+/proc/ioports:   04d0-04d1 : pnp 00:04
+/proc/ioports:   0505-0505 : QEMU0001:00
+/proc/ioports: 0cf8-0cff : PCI conf1
+/proc/ioports: 0d00-ffff : PCI Bus 0000:00
+/proc/ioports:   4000-407f : 0000:00:1f.0
+/proc/ioports:     4000-4003 : ACPI PM1a_EVT_BLK
+/proc/ioports:     4004-4005 : ACPI PM1a_CNT_BLK
+/proc/ioports:     4008-400b : ACPI PM_TMR
+/proc/ioports:     400c-400c : ACPI PM2_CNT_BLK
+/proc/ioports:     4028-402b : ACPI GPE0_BLK
+/proc/ioports:   6000-7fff : PCI Bus 0000:01
+/proc/ioports:     6000-601f : 0000:01:00.0
+/proc/ioports:   8000-801f : 0000:00:03.0
+/proc/ioports:   8200-823f : 0000:00:05.0
+/proc/ioports:     8200-823f : virtio-pci-legacy
+/proc/ioports:   9000-afff : PCI Bus 0000:02
+/proc/ioports:   b000-b01f : 0000:00:0e.0
+/proc/ioports:     b000-b01f : virtio-pci-legacy
+/proc/ioports:   b200-b21f : 0000:00:1d.0
+/proc/ioports:     b200-b21f : uhci_hcd
+/proc/ioports:   c000-dfff : PCI Bus 0000:03
+/proc/ioports:   e000-e00f : 0000:00:1f.1
+/proc/ioports:     e000-e00f : ata_piix
+/proc/ioports:   e200-e207 : 0000:00:1f.2
+/proc/ioports:     e200-e207 : ahci
+/proc/ioports:   e400-e403 : 0000:00:1f.2
+/proc/ioports:     e400-e403 : ahci
+/proc/ioports:   e600-e607 : 0000:00:1f.2
+/proc/ioports:     e600-e607 : ahci
+/proc/ioports:   e800-e803 : 0000:00:1f.2
+/proc/ioports:     e800-e803 : ahci
+/proc/ioports:   ea00-ea0f : 0000:00:1f.2
+/proc/ioports:     ea00-ea0f : ahci
+/proc/ioports:   ec00-ec1f : 0000:00:1f.3
+/proc/ioports:   ee00-eeff : 0000:00:1f.4
+/proc/ioports:     ee00-eeff : Intel 82801BA-ICH2
+/proc/ioports:   f000-f0ff : 0000:00:1f.4
+/proc/ioports:     f000-f0ff : Intel 82801BA-ICH2
+/proc/iomem: 00000000-00000fff : Reserved
+/proc/iomem: 00001000-0009fbff : System RAM
+/proc/iomem: 0009fc00-0009ffff : Reserved
+/proc/iomem: 000a0000-000bffff : PCI Bus 0000:00
+/proc/iomem: 000c0000-000cffff : PCI Bus 0000:00
+/proc/iomem:   000c0000-000c9fff : Video ROM
+/proc/iomem: 000d0000-000d0fff : Adapter ROM
+/proc/iomem: 000dc000-000fffff : Reserved
+/proc/iomem:   000f0000-000fffff : System ROM
+/proc/iomem: 00100000-7ffebfff : System RAM
+/proc/iomem:   1b200000-1bc031d0 : Kernel code
+/proc/iomem:   1bc031d1-1c3366bf : Kernel data
+/proc/iomem:   1c7c8000-1c9fffff : Kernel bss
+/proc/iomem: 7ffec000-7ffedfff : Reserved
+/proc/iomem: 7ffee000-7fffafff : ACPI Tables
+/proc/iomem: 7fffb000-7fffffff : ACPI Non-volatile Storage
+/proc/iomem: b0000000-febfffff : PCI Bus 0000:00
+/proc/iomem:   b0000000-dfffffff : PCI Bus 0000:01
+/proc/iomem:     b0000000-b3ffffff : 0000:01:00.0
+/proc/iomem:   e0000000-e0ffffff : PCI Bus 0000:02
+/proc/iomem:   e1000000-e1ffffff : PCI Bus 0000:03
+/proc/iomem:   e2000000-edffffff : PCI Bus 0000:01
+/proc/iomem:     e2000000-e2000fff : 0000:01:00.0
+/proc/iomem:     e2040000-e2043fff : 0000:01:00.0
+/proc/iomem:       e2040000-e2043fff : virtio-pci-modern
+/proc/iomem:   ee000000-ee000fff : 0000:00:05.0
+/proc/iomem:   ee100000-ef0fffff : PCI Bus 0000:02
+/proc/iomem:   ef100000-ef100fff : 0000:00:1d.6
+/proc/iomem:     ef100000-ef100fff : xhci-hcd
+/proc/iomem:   ef140000-ef1403ff : 0000:00:1d.7
+/proc/iomem:     ef140000-ef1403ff : ehci_hcd
+/proc/iomem:   ef200000-f01fffff : PCI Bus 0000:03
+/proc/iomem:   f0200000-f0201fff : 0000:00:1f.2
+/proc/iomem:     f0200000-f0201fff : ahci
+/proc/iomem:   f0240000-f0240fff : 0000:00:1f.3
+/proc/iomem:   fc000000-fcffffff : PCI MMCONFIG 0000 [bus 00-0f]
+/proc/iomem:     fc000000-fcffffff : pnp 00:04
+/proc/iomem: fec00000-fec00fff : Reserved
+/proc/iomem:   fec00000-fec003ff : IOAPIC 0
+/proc/iomem: fed00000-fed00fff : Reserved
+/proc/iomem:   fed00000-fed003ff : HPET 1
+/proc/iomem:     fed00000-fed003ff : PNP0103:00
+/proc/iomem: fed04000-fed04fff : Reserved
+/proc/iomem: fee00000-fee00fff : Local APIC
+/proc/iomem:   fee00000-fee00fff : Reserved
+/proc/iomem: ff000000-ffffffff : INT0800:00
+/proc/iomem:   ffc00000-ffffffff : Reserved
+/proc/interrupts:            CPU0       CPU1       
+/proc/interrupts:   0:          3          0   IO-APIC   2-edge      timer
+/proc/interrupts:   1:          0        139   IO-APIC   1-edge      i8042
+/proc/interrupts:   8:          1          0   IO-APIC   8-edge      rtc0
+/proc/interrupts:   9:          0        234   IO-APIC   9-fasteoi   acpi
+/proc/interrupts:  12:        143          0   IO-APIC  12-edge      i8042
+/proc/interrupts:  14:          0          0   IO-APIC  14-edge      ata_piix
+/proc/interrupts:  15:          0          0   IO-APIC  15-edge      ata_piix
+/proc/interrupts:  17:          0          0   IO-APIC  17-fasteoi   snd_intel8x0
+/proc/interrupts:  18:          0       3035   IO-APIC  18-fasteoi   uhci_hcd:usb1
+/proc/interrupts:  19:          0          0   IO-APIC  19-fasteoi   ehci_hcd:usb4
+/proc/interrupts:  22:          0          0   IO-APIC  22-fasteoi   virtio1
+/proc/interrupts:  24:         23          0   PCI-MSI 487424-edge      xhci_hcd
+/proc/interrupts:  25:          0      91681   PCI-MSI 512000-edge      ahci[0000:00:1f.2]
+/proc/interrupts:  26:          0          0   PCI-MSI 524288-edge      virtio2-config
+/proc/interrupts:  27:          0       9805   PCI-MSI 524289-edge      virtio2-virtqueues
+/proc/interrupts:  28:          0          0   PCI-MSI 81920-edge      virtio0-config
+/proc/interrupts:  29:      27547          0   PCI-MSI 81921-edge      virtio0-input.0
+/proc/interrupts:  30:          0          1   PCI-MSI 81922-edge      virtio0-output.0
+/proc/interrupts: NMI:          0          0   Non-maskable interrupts
+/proc/interrupts: LOC:      35861      32289   Local timer interrupts
+/proc/interrupts: SPU:          0          0   Spurious interrupts
+/proc/interrupts: PMI:          0          0   Performance monitoring interrupts
+/proc/interrupts: IWI:          0          0   IRQ work interrupts
+/proc/interrupts: RTR:          0          0   APIC ICR read retries
+/proc/interrupts: RES:     212988     224642   Rescheduling interrupts
+/proc/interrupts: CAL:      10674      10574   Function call interrupts
+/proc/interrupts: TLB:          4          4   TLB shootdowns
+/proc/interrupts: TRM:          0          0   Thermal event interrupts
+/proc/interrupts: THR:          0          0   Threshold APIC interrupts
+/proc/interrupts: DFR:          0          0   Deferred Error APIC interrupts
+/proc/interrupts: MCE:          0          0   Machine check exceptions
+/proc/interrupts: MCP:          2          2   Machine check polls
+/proc/interrupts: ERR:          0
+/proc/interrupts: MIS:          0
+/proc/interrupts: PIN:          0          0   Posted-interrupt notification event
+/proc/interrupts: NPI:          0          0   Nested posted-interrupt event
+/proc/interrupts: PIW:          0          0   Posted-interrupt wakeup event
+/proc/meminfo: MemTotal:        2036948 kB
+/proc/meminfo: MemFree:          489288 kB
+/proc/meminfo: MemAvailable:    1507560 kB
+/proc/meminfo: Buffers:            2736 kB
+/proc/meminfo: Cached:          1331664 kB
+/proc/meminfo: SwapCached:          128 kB
+/proc/meminfo: Active:           474484 kB
+/proc/meminfo: Inactive:         898104 kB
+/proc/meminfo: Active(anon):     164280 kB
+/proc/meminfo: Inactive(anon):   117704 kB
+/proc/meminfo: Active(file):     310204 kB
+/proc/meminfo: Inactive(file):   780400 kB
+/proc/meminfo: Unevictable:           0 kB
+/proc/meminfo: Mlocked:               0 kB
+/proc/meminfo: SwapTotal:       2095100 kB
+/proc/meminfo: SwapFree:        2094332 kB
+/proc/meminfo: Dirty:               728 kB
+/proc/meminfo: Writeback:            12 kB
+/proc/meminfo: AnonPages:         38168 kB
+/proc/meminfo: Mapped:            22732 kB
+/proc/meminfo: Shmem:            243640 kB
+/proc/meminfo: Slab:             134248 kB
+/proc/meminfo: SReclaimable:     115400 kB
+/proc/meminfo: SUnreclaim:        18848 kB
+/proc/meminfo: KernelStack:        2048 kB
+/proc/meminfo: PageTables:          724 kB
+/proc/meminfo: NFS_Unstable:          0 kB
+/proc/meminfo: Bounce:                0 kB
+/proc/meminfo: WritebackTmp:          0 kB
+/proc/meminfo: CommitLimit:     3113572 kB
+/proc/meminfo: Committed_AS:     300848 kB
+/proc/meminfo: VmallocTotal:   34359738367 kB
+/proc/meminfo: VmallocUsed:           0 kB
+/proc/meminfo: VmallocChunk:          0 kB
+/proc/meminfo: Percpu:             6144 kB
+/proc/meminfo: HardwareCorrupted:     0 kB
+/proc/meminfo: AnonHugePages:     28672 kB
+/proc/meminfo: ShmemHugePages:        0 kB
+/proc/meminfo: ShmemPmdMapped:        0 kB
+/proc/meminfo: HugePages_Total:       0
+/proc/meminfo: HugePages_Free:        0
+/proc/meminfo: HugePages_Rsvd:        0
+/proc/meminfo: HugePages_Surp:        0
+/proc/meminfo: Hugepagesize:       2048 kB
+/proc/meminfo: Hugetlb:               0 kB
+/proc/meminfo: DirectMap4k:       63408 kB
+/proc/meminfo: DirectMap2M:     2033664 kB
+/proc/bus/input/devices: I: Bus=0011 Vendor=0001 Product=0001 Version=ab83
+/proc/bus/input/devices: N: Name="AT Translated Set 2 keyboard"
+/proc/bus/input/devices: P: Phys=isa0060/serio0/input0
+/proc/bus/input/devices: S: Sysfs=/devices/platform/i8042/serio0/input/input0
+/proc/bus/input/devices: U: Uniq=
+/proc/bus/input/devices: H: Handlers=sysrq kbd leds event0 
+/proc/bus/input/devices: B: PROP=0
+/proc/bus/input/devices: B: EV=120013
+/proc/bus/input/devices: B: KEY=402000000 3803078f800d001 feffffdfffefffff fffffffffffffffe
+/proc/bus/input/devices: B: MSC=10
+/proc/bus/input/devices: B: LED=7
+/proc/bus/input/devices: 
+/proc/bus/input/devices: I: Bus=0003 Vendor=203a Product=fffc Version=0110
+/proc/bus/input/devices: N: Name="Parallels Virtual Mouse"
+/proc/bus/input/devices: P: Phys=usb-0000:00:1d.0-1/input0
+/proc/bus/input/devices: S: Sysfs=/devices/pci0000:00/0000:00:1d.0/usb1/1-1/1-1:1.0/0003:203A:FFFC.0001/input/input3
+/proc/bus/input/devices: U: Uniq=PW3.0
+/proc/bus/input/devices: H: Handlers=mouse0 event1 
+/proc/bus/input/devices: B: PROP=0
+/proc/bus/input/devices: B: EV=1f
+/proc/bus/input/devices: B: KEY=ff0000 0 0 0 0
+/proc/bus/input/devices: B: REL=140
+/proc/bus/input/devices: B: ABS=3
+/proc/bus/input/devices: B: MSC=10
+/proc/bus/input/devices: 
+/proc/bus/input/devices: I: Bus=0003 Vendor=203a Product=fffc Version=0110
+/proc/bus/input/devices: N: Name="Parallels Virtual Mouse"
+/proc/bus/input/devices: P: Phys=usb-0000:00:1d.0-1/input1
+/proc/bus/input/devices: S: Sysfs=/devices/pci0000:00/0000:00:1d.0/usb1/1-1/1-1:1.1/0003:203A:FFFC.0002/input/input4
+/proc/bus/input/devices: U: Uniq=PW3.0
+/proc/bus/input/devices: H: Handlers=mouse1 event2 
+/proc/bus/input/devices: B: PROP=0
+/proc/bus/input/devices: B: EV=17
+/proc/bus/input/devices: B: KEY=ff0000 0 0 0 0
+/proc/bus/input/devices: B: REL=143
+/proc/bus/input/devices: B: MSC=10
+/proc/bus/input/devices: 
+/proc/bus/input/devices: I: Bus=0011 Vendor=0002 Product=0006 Version=0000
+/proc/bus/input/devices: N: Name="ImExPS/2 Generic Explorer Mouse"
+/proc/bus/input/devices: P: Phys=isa0060/serio1/input0
+/proc/bus/input/devices: S: Sysfs=/devices/platform/i8042/serio1/input/input2
+/proc/bus/input/devices: U: Uniq=
+/proc/bus/input/devices: H: Handlers=mouse2 event3 
+/proc/bus/input/devices: B: PROP=1
+/proc/bus/input/devices: B: EV=7
+/proc/bus/input/devices: B: KEY=1f0000 0 0 0 0
+/proc/bus/input/devices: B: REL=143
+/proc/bus/input/devices: 
+dmidecode: # dmidecode 3.2
+dmidecode: Getting SMBIOS data from sysfs.
+dmidecode: SMBIOS 2.7 present.
+dmidecode: 24 structures occupying 1155 bytes.
+dmidecode: Table at 0x7FFEC000.
+dmidecode: 
+dmidecode: Handle 0x0000, DMI type 0, 24 bytes
+dmidecode: BIOS Information
+dmidecode: 	Vendor: Parallels Software International Inc.
+dmidecode: 	Version: 15.1.4 (47270)
+dmidecode: 	Release Date: 04/13/2020
+dmidecode: 	Address: 0xF0000
+dmidecode: 	Runtime Size: 64 kB
+dmidecode: 	ROM Size: 64 kB
+dmidecode: 	Characteristics:
+dmidecode: 		ISA is supported
+dmidecode: 		PCI is supported
+dmidecode: 		PNP is supported
+dmidecode: 		APM is supported
+dmidecode: 		Boot from CD is supported
+dmidecode: 		3.5"/720 kB floppy services are supported (int 13h)
+dmidecode: 		3.5"/2.88 MB floppy services are supported (int 13h)
+dmidecode: 		8042 keyboard services are supported (int 9h)
+dmidecode: 		Serial services are supported (int 14h)
+dmidecode: 		Printer services are supported (int 17h)
+dmidecode: 		CGA/mono video services are supported (int 10h)
+dmidecode: 		ACPI is supported
+dmidecode: 		Targeted content distribution is supported
+dmidecode: 		System is a virtual machine
+dmidecode: 	BIOS Revision: 15.1
+dmidecode: 	Firmware Revision: 15.1
+dmidecode: 
+dmidecode: Handle 0x0001, DMI type 1, 27 bytes
+dmidecode: System Information
+dmidecode: 	Manufacturer: Parallels Software International Inc.
+dmidecode: 	Product Name: Parallels Virtual Platform
+dmidecode: 	Version: None
+dmidecode: 	Serial Number: Parallels-F5 44 1F 41 54 6F 40 01 A8 FF C9 C5 D7 F1 E5 6F
+dmidecode: 	UUID: 411f44f5-6f54-0140-a8ff-c9c5d7f1e56f
+dmidecode: 	Wake-up Type: Power Switch
+dmidecode: 	SKU Number: Undefined
+dmidecode: 	Family: Parallels VM
+dmidecode: 
+dmidecode: Handle 0x0002, DMI type 2, 16 bytes
+dmidecode: Base Board Information
+dmidecode: 	Manufacturer: Parallels Software International Inc.
+dmidecode: 	Product Name: Parallels Virtual Platform
+dmidecode: 	Version: None
+dmidecode: 	Serial Number: None
+dmidecode: 	Asset Tag: Not Specified
+dmidecode: 	Features:
+dmidecode: 		Board is a hosting board
+dmidecode: 		Board is replaceable
+dmidecode: 	Location In Chassis: Not Specified
+dmidecode: 	Chassis Handle: 0x0003
+dmidecode: 	Type: Motherboard
+dmidecode: 	Contained Object Handles: 0
+dmidecode: 
+dmidecode: Handle 0x0003, DMI type 3, 18 bytes
+dmidecode: Chassis Information
+dmidecode: 	Manufacturer: Parallels Software International Inc.
+dmidecode: 	Type: Laptop
+dmidecode: 	Lock: Not Present
+dmidecode: 	Version:  
+dmidecode: 	Serial Number:  
+dmidecode: 	Asset Tag:  
+dmidecode: 	Boot-up State: Safe
+dmidecode: 	Power Supply State: Safe
+dmidecode: 	Thermal State: Safe
+dmidecode: 	Security Status: None
+dmidecode: 	OEM Information: 0x00000000
+dmidecode: 
+dmidecode: Handle 0x0004, DMI type 4, 35 bytes
+dmidecode: Processor Information
+dmidecode: 	Socket Designation: CPU Socket #0
+dmidecode: 	Type: Central Processor
+dmidecode: 	Family: Core i9
+dmidecode: 	Manufacturer: GenuineIntel
+dmidecode: 	ID: ED 06 09 00 FF FB EB BF
+dmidecode: 	Signature: Type 0, Family 6, Model 158, Stepping 13
+dmidecode: 	Flags:
+dmidecode: 		FPU (Floating-point unit on-chip)
+dmidecode: 		VME (Virtual mode extension)
+dmidecode: 		DE (Debugging extension)
+dmidecode: 		PSE (Page size extension)
+dmidecode: 		TSC (Time stamp counter)
+dmidecode: 		MSR (Model specific registers)
+dmidecode: 		PAE (Physical address extension)
+dmidecode: 		MCE (Machine check exception)
+dmidecode: 		CX8 (CMPXCHG8 instruction supported)
+dmidecode: 		APIC (On-chip APIC hardware supported)
+dmidecode: 		SEP (Fast system call)
+dmidecode: 		MTRR (Memory type range registers)
+dmidecode: 		PGE (Page global enable)
+dmidecode: 		MCA (Machine check architecture)
+dmidecode: 		CMOV (Conditional move instruction supported)
+dmidecode: 		PAT (Page attribute table)
+dmidecode: 		PSE-36 (36-bit page size extension)
+dmidecode: 		CLFSH (CLFLUSH instruction supported)
+dmidecode: 		DS (Debug store)
+dmidecode: 		ACPI (ACPI supported)
+dmidecode: 		MMX (MMX technology supported)
+dmidecode: 		FXSR (FXSAVE and FXSTOR instructions supported)
+dmidecode: 		SSE (Streaming SIMD extensions)
+dmidecode: 		SSE2 (Streaming SIMD extensions 2)
+dmidecode: 		SS (Self-snoop)
+dmidecode: 		HTT (Multi-threading)
+dmidecode: 		TM (Thermal monitor supported)
+dmidecode: 		PBE (Pending break enabled)
+dmidecode: 	Version: Not Specified
+dmidecode: 	Voltage: 3.3 V
+dmidecode: 	External Clock: 100 MHz
+dmidecode: 	Max Speed: 2400 MHz
+dmidecode: 	Current Speed: 2400 MHz
+dmidecode: 	Status: Populated, Enabled
+dmidecode: 	Upgrade: Other
+dmidecode: 	L1 Cache Handle: Not Provided
+dmidecode: 	L2 Cache Handle: Not Provided
+dmidecode: 	L3 Cache Handle: Not Provided
+dmidecode: 	Serial Number: Not Specified
+dmidecode: 	Asset Tag: Not Specified
+dmidecode: 	Part Number: Not Specified
+dmidecode: 
+dmidecode: Handle 0x0005, DMI type 9, 13 bytes
+dmidecode: System Slot Information
+dmidecode: 	Designation: ISA slot 1
+dmidecode: 	Type: 16-bit ISA
+dmidecode: 	Current Usage: Unknown
+dmidecode: 	Length: Unknown
+dmidecode: 	Characteristics:
+dmidecode: 		3.3 V is provided
+dmidecode: 
+dmidecode: Handle 0x0006, DMI type 9, 13 bytes
+dmidecode: System Slot Information
+dmidecode: 	Designation: PCI slot 1
+dmidecode: 	Type: 32-bit PCI
+dmidecode: 	Current Usage: Unknown
+dmidecode: 	Length: Unknown
+dmidecode: 	ID: 1
+dmidecode: 	Characteristics:
+dmidecode: 		3.3 V is provided
+dmidecode: 
+dmidecode: Handle 0x0007, DMI type 9, 13 bytes
+dmidecode: System Slot Information
+dmidecode: 	Designation: PCI slot 2
+dmidecode: 	Type: 32-bit PCI
+dmidecode: 	Current Usage: Unknown
+dmidecode: 	Length: Unknown
+dmidecode: 	ID: 2
+dmidecode: 	Characteristics:
+dmidecode: 		3.3 V is provided
+dmidecode: 
+dmidecode: Handle 0x0008, DMI type 9, 13 bytes
+dmidecode: System Slot Information
+dmidecode: 	Designation: PCI slot 3
+dmidecode: 	Type: 32-bit PCI
+dmidecode: 	Current Usage: Unknown
+dmidecode: 	Length: Unknown
+dmidecode: 	ID: 3
+dmidecode: 	Characteristics:
+dmidecode: 		3.3 V is provided
+dmidecode: 
+dmidecode: Handle 0x0009, DMI type 9, 13 bytes
+dmidecode: System Slot Information
+dmidecode: 	Designation: PCI slot 4
+dmidecode: 	Type: 32-bit PCI
+dmidecode: 	Current Usage: Unknown
+dmidecode: 	Length: Unknown
+dmidecode: 	ID: 4
+dmidecode: 	Characteristics:
+dmidecode: 		3.3 V is provided
+dmidecode: 
+dmidecode: Handle 0x000A, DMI type 9, 13 bytes
+dmidecode: System Slot Information
+dmidecode: 	Designation: PCI slot 5
+dmidecode: 	Type: 32-bit PCI
+dmidecode: 	Current Usage: Unknown
+dmidecode: 	Length: Unknown
+dmidecode: 	ID: 5
+dmidecode: 	Characteristics:
+dmidecode: 		3.3 V is provided
+dmidecode: 
+dmidecode: Handle 0x000B, DMI type 10, 8 bytes
+dmidecode: On Board Device 1 Information
+dmidecode: 	Type: Video
+dmidecode: 	Status: Disabled
+dmidecode: 	Description: Parallels Video Adapter
+dmidecode: On Board Device 2 Information
+dmidecode: 	Type: Sound
+dmidecode: 	Status: Disabled
+dmidecode: 	Description: Parallels Sound Adapter
+dmidecode: 
+dmidecode: Handle 0x000C, DMI type 16, 15 bytes
+dmidecode: Physical Memory Array
+dmidecode: 	Location: System Board Or Motherboard
+dmidecode: 	Use: System Memory
+dmidecode: 	Error Correction Type: None
+dmidecode: 	Maximum Capacity: 128 GB
+dmidecode: 	Error Information Handle: Not Provided
+dmidecode: 	Number Of Devices: 8
+dmidecode: 
+dmidecode: Handle 0x000D, DMI type 17, 33 bytes
+dmidecode: Memory Device
+dmidecode: 	Array Handle: 0x000C
+dmidecode: 	Error Information Handle: Not Provided
+dmidecode: 	Total Width: 32 bits
+dmidecode: 	Data Width: 32 bits
+dmidecode: 	Size: 2048 MB
+dmidecode: 	Form Factor: DIMM
+dmidecode: 	Set: None
+dmidecode: 	Locator: DIMM #0
+dmidecode: 	Bank Locator: BANK #0
+dmidecode: 	Type: DRAM
+dmidecode: 	Type Detail: EDO
+dmidecode: 	Speed: 667 MT/s
+dmidecode: 	Manufacturer: Not Specified
+dmidecode: 	Serial Number: Not Specified
+dmidecode: 	Asset Tag: Not Specified
+dmidecode: 	Part Number: Not Specified
+dmidecode: 	Rank: Unknown
+dmidecode: 
+dmidecode: Handle 0x000E, DMI type 17, 33 bytes
+dmidecode: Memory Device
+dmidecode: 	Array Handle: 0x000C
+dmidecode: 	Error Information Handle: Not Provided
+dmidecode: 	Total Width: 32 bits
+dmidecode: 	Data Width: 32 bits
+dmidecode: 	Size: No Module Installed
+dmidecode: 	Form Factor: DIMM
+dmidecode: 	Set: None
+dmidecode: 	Locator: DIMM #1
+dmidecode: 	Bank Locator: BANK #1
+dmidecode: 	Type: DRAM
+dmidecode: 	Type Detail: EDO
+dmidecode: 	Speed: 667 MT/s
+dmidecode: 	Manufacturer: Not Specified
+dmidecode: 	Serial Number: Not Specified
+dmidecode: 	Asset Tag: Not Specified
+dmidecode: 	Part Number: Not Specified
+dmidecode: 	Rank: Unknown
+dmidecode: 
+dmidecode: Handle 0x000F, DMI type 17, 33 bytes
+dmidecode: Memory Device
+dmidecode: 	Array Handle: 0x000C
+dmidecode: 	Error Information Handle: Not Provided
+dmidecode: 	Total Width: 32 bits
+dmidecode: 	Data Width: 32 bits
+dmidecode: 	Size: No Module Installed
+dmidecode: 	Form Factor: DIMM
+dmidecode: 	Set: None
+dmidecode: 	Locator: DIMM #2
+dmidecode: 	Bank Locator: BANK #2
+dmidecode: 	Type: DRAM
+dmidecode: 	Type Detail: EDO
+dmidecode: 	Speed: 667 MT/s
+dmidecode: 	Manufacturer: Not Specified
+dmidecode: 	Serial Number: Not Specified
+dmidecode: 	Asset Tag: Not Specified
+dmidecode: 	Part Number: Not Specified
+dmidecode: 	Rank: Unknown
+dmidecode: 
+dmidecode: Handle 0x0010, DMI type 17, 33 bytes
+dmidecode: Memory Device
+dmidecode: 	Array Handle: 0x000C
+dmidecode: 	Error Information Handle: Not Provided
+dmidecode: 	Total Width: 32 bits
+dmidecode: 	Data Width: 32 bits
+dmidecode: 	Size: No Module Installed
+dmidecode: 	Form Factor: DIMM
+dmidecode: 	Set: None
+dmidecode: 	Locator: DIMM #3
+dmidecode: 	Bank Locator: BANK #3
+dmidecode: 	Type: DRAM
+dmidecode: 	Type Detail: EDO
+dmidecode: 	Speed: 667 MT/s
+dmidecode: 	Manufacturer: Not Specified
+dmidecode: 	Serial Number: Not Specified
+dmidecode: 	Asset Tag: Not Specified
+dmidecode: 	Part Number: Not Specified
+dmidecode: 	Rank: Unknown
+dmidecode: 
+dmidecode: Handle 0x0011, DMI type 17, 33 bytes
+dmidecode: Memory Device
+dmidecode: 	Array Handle: 0x000C
+dmidecode: 	Error Information Handle: Not Provided
+dmidecode: 	Total Width: 32 bits
+dmidecode: 	Data Width: 32 bits
+dmidecode: 	Size: No Module Installed
+dmidecode: 	Form Factor: DIMM
+dmidecode: 	Set: None
+dmidecode: 	Locator: DIMM #4
+dmidecode: 	Bank Locator: BANK #4
+dmidecode: 	Type: DRAM
+dmidecode: 	Type Detail: EDO
+dmidecode: 	Speed: 667 MT/s
+dmidecode: 	Manufacturer: Not Specified
+dmidecode: 	Serial Number: Not Specified
+dmidecode: 	Asset Tag: Not Specified
+dmidecode: 	Part Number: Not Specified
+dmidecode: 	Rank: Unknown
+dmidecode: 
+dmidecode: Handle 0x0012, DMI type 17, 33 bytes
+dmidecode: Memory Device
+dmidecode: 	Array Handle: 0x000C
+dmidecode: 	Error Information Handle: Not Provided
+dmidecode: 	Total Width: 32 bits
+dmidecode: 	Data Width: 32 bits
+dmidecode: 	Size: No Module Installed
+dmidecode: 	Form Factor: DIMM
+dmidecode: 	Set: None
+dmidecode: 	Locator: DIMM #5
+dmidecode: 	Bank Locator: BANK #5
+dmidecode: 	Type: DRAM
+dmidecode: 	Type Detail: EDO
+dmidecode: 	Speed: 667 MT/s
+dmidecode: 	Manufacturer: Not Specified
+dmidecode: 	Serial Number: Not Specified
+dmidecode: 	Asset Tag: Not Specified
+dmidecode: 	Part Number: Not Specified
+dmidecode: 	Rank: Unknown
+dmidecode: 
+dmidecode: Handle 0x0013, DMI type 17, 33 bytes
+dmidecode: Memory Device
+dmidecode: 	Array Handle: 0x000C
+dmidecode: 	Error Information Handle: Not Provided
+dmidecode: 	Total Width: 32 bits
+dmidecode: 	Data Width: 32 bits
+dmidecode: 	Size: No Module Installed
+dmidecode: 	Form Factor: DIMM
+dmidecode: 	Set: None
+dmidecode: 	Locator: DIMM #6
+dmidecode: 	Bank Locator: BANK #6
+dmidecode: 	Type: DRAM
+dmidecode: 	Type Detail: EDO
+dmidecode: 	Speed: 667 MT/s
+dmidecode: 	Manufacturer: Not Specified
+dmidecode: 	Serial Number: Not Specified
+dmidecode: 	Asset Tag: Not Specified
+dmidecode: 	Part Number: Not Specified
+dmidecode: 	Rank: Unknown
+dmidecode: 
+dmidecode: Handle 0x0014, DMI type 17, 33 bytes
+dmidecode: Memory Device
+dmidecode: 	Array Handle: 0x000C
+dmidecode: 	Error Information Handle: Not Provided
+dmidecode: 	Total Width: 32 bits
+dmidecode: 	Data Width: 32 bits
+dmidecode: 	Size: No Module Installed
+dmidecode: 	Form Factor: DIMM
+dmidecode: 	Set: None
+dmidecode: 	Locator: DIMM #7
+dmidecode: 	Bank Locator: BANK #7
+dmidecode: 	Type: DRAM
+dmidecode: 	Type Detail: EDO
+dmidecode: 	Speed: 667 MT/s
+dmidecode: 	Manufacturer: Not Specified
+dmidecode: 	Serial Number: Not Specified
+dmidecode: 	Asset Tag: Not Specified
+dmidecode: 	Part Number: Not Specified
+dmidecode: 	Rank: Unknown
+dmidecode: 
+dmidecode: Handle 0x0015, DMI type 19, 15 bytes
+dmidecode: Memory Array Mapped Address
+dmidecode: 	Starting Address: 0x00000000000
+dmidecode: 	Ending Address: 0x0007FFFFFFF
+dmidecode: 	Range Size: 2 GB
+dmidecode: 	Physical Array Handle: 0x000C
+dmidecode: 	Partition Width: 2
+dmidecode: 
+dmidecode: Handle 0x0016, DMI type 32, 20 bytes
+dmidecode: System Boot Information
+dmidecode: 	Status: No errors detected
+dmidecode: 
+dmidecode: Handle 0x0017, DMI type 127, 4 bytes
+dmidecode: End Of Table
+dmidecode: 
+/proc/fb: 0 virtiodrmfb
+/proc/fb: 1 VGA16 VGA

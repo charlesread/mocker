@@ -1,0 +1,96 @@
+
+Start-Date: 2020-10-22  21:39:30
+Commandline: apt-get -o APT::Status-Fd=4 -o APT::Keep-Fds::=5 -o APT::Keep-Fds::=6 -q -y --no-remove install locales
+Install: locales:amd64 (2.28-10), libc-l10n:amd64 (2.28-10, automatic)
+End-Date: 2020-10-22  21:39:31
+
+Start-Date: 2020-10-22  17:39:32
+Commandline: apt-get -o APT::Status-Fd=4 -o APT::Keep-Fds::=5 -o APT::Keep-Fds::=6 -q -y --no-remove install busybox
+Install: busybox:amd64 (1:1.30.1-4)
+End-Date: 2020-10-22  17:39:32
+
+Start-Date: 2020-10-22  17:39:33
+Commandline: apt-get -o APT::Status-Fd=4 -o APT::Keep-Fds::=5 -o APT::Keep-Fds::=6 -q -y --no-remove install initramfs-tools
+Install: linux-base:amd64 (4.6, automatic), libklibc:amd64 (2.0.6-1, automatic), klibc-utils:amd64 (2.0.6-1, automatic), initramfs-tools-core:amd64 (0.133+deb10u1, automatic), initramfs-tools:amd64 (0.133+deb10u1)
+End-Date: 2020-10-22  17:39:33
+
+Start-Date: 2020-10-22  17:39:34
+Commandline: apt-get -o APT::Status-Fd=4 -o APT::Keep-Fds::=5 -o APT::Keep-Fds::=6 -q -y --no-remove -o APT::Install-Recommends=true install linux-image-amd64
+Install: libpython3.7-minimal:amd64 (3.7.3-2+deb10u2, automatic), libsqlite3-0:amd64 (3.27.2-3, automatic), python3.7:amd64 (3.7.3-2+deb10u2, automatic), python3:amd64 (3.7.3-1, automatic), mime-support:amd64 (3.62, automatic), libmagic1:amd64 (1:5.35-4+deb10u1, automatic), libmpdec2:amd64 (2.4.2-2, automatic), libpython3.7-stdlib:amd64 (3.7.3-2+deb10u2, automatic), libexpat1:amd64 (2.2.6-2+deb10u1, automatic), python3.7-minimal:amd64 (3.7.3-2+deb10u2, automatic), firmware-linux-free:amd64 (3.4, automatic), python3-minimal:amd64 (3.7.3-1, automatic), libmagic-mgc:amd64 (1:5.35-4+deb10u1, automatic), libpython3-stdlib:amd64 (3.7.3-1, automatic), linux-image-amd64:amd64 (4.19+105+deb10u6), xz-utils:amd64 (5.2.4-1, automatic), libreadline7:amd64 (7.0-5, automatic), bzip2:amd64 (1.0.6-9.2~deb10u1, automatic), file:amd64 (1:5.35-4+deb10u1, automatic), linux-image-4.19.0-11-amd64:amd64 (4.19.146-1, automatic), apparmor:amd64 (2.13.2-10, automatic)
+End-Date: 2020-10-22  17:39:54
+
+Start-Date: 2020-10-22  17:39:55
+Commandline: apt-get -o APT::Status-Fd=4 -o APT::Keep-Fds::=5 -o APT::Keep-Fds::=6 -q -y --no-remove install pciutils
+Install: pciutils:amd64 (1:3.5.2-1), libpci3:amd64 (1:3.5.2-1, automatic)
+End-Date: 2020-10-22  17:39:55
+
+Start-Date: 2020-10-22  17:39:55
+Commandline: apt-get -o APT::Status-Fd=4 -o APT::Keep-Fds::=5 -o APT::Keep-Fds::=6 -q -y --no-remove install usbutils
+Install: libusb-1.0-0:amd64 (2:1.0.22-2, automatic), usb.ids:amd64 (2019.07.27-0+deb10u1, automatic), usbutils:amd64 (1:010-3)
+End-Date: 2020-10-22  17:39:56
+
+Start-Date: 2020-10-22  17:39:56
+Commandline: apt-get -o APT::Status-Fd=4 -o APT::Keep-Fds::=5 -o APT::Keep-Fds::=6 -q -y --no-remove install eject
+Install: eject:amd64 (2.1.5+deb1+cvs20081104-13.2)
+End-Date: 2020-10-22  17:39:56
+
+Start-Date: 2020-10-22  17:39:57
+Commandline: apt-get -o APT::Status-Fd=4 -o APT::Keep-Fds::=5 -o APT::Keep-Fds::=6 -q -y --no-remove install keyboard-configuration
+Install: keyboard-configuration:amd64 (1.193~deb10u1)
+End-Date: 2020-10-22  17:39:57
+
+Start-Date: 2020-10-22  17:39:58
+Commandline: apt-get -o APT::Status-Fd=4 -o APT::Keep-Fds::=5 -o APT::Keep-Fds::=6 -q -y --no-remove install console-setup
+Install: console-setup-linux:amd64 (1.193~deb10u1, automatic), console-setup:amd64 (1.193~deb10u1), xkb-data:amd64 (2.26-2, automatic), kbd:amd64 (2.0.4-4, automatic)
+End-Date: 2020-10-22  17:39:59
+
+Start-Date: 2020-10-22  17:43:35
+Commandline: apt-get -o APT::Status-Fd=4 -o APT::Keep-Fds::=5 -o APT::Keep-Fds::=6 -q --no-install-recommends -y -o DPkg::options=--force-confnew upgrade --with-new-pkgs
+Install: linux-image-4.19.0-12-amd64:amd64 (4.19.152-1, automatic)
+Upgrade: linux-image-amd64:amd64 (4.19+105+deb10u6, 4.19+105+deb10u7)
+End-Date: 2020-10-22  17:43:45
+
+Start-Date: 2020-10-22  17:43:46
+Commandline: apt-get -o APT::Status-Fd=4 -o APT::Keep-Fds::=5 -o APT::Keep-Fds::=6 -q -y --no-remove install laptop-detect
+Install: laptop-detect:amd64 (0.16)
+End-Date: 2020-10-22  17:43:46
+
+Start-Date: 2020-10-22  17:43:47
+Commandline: apt-get -o APT::Status-Fd=4 -o APT::Keep-Fds::=5 -o APT::Keep-Fds::=6 -q -y --no-remove install discover
+Install: libdiscover2:amd64 (2.1.2-8, automatic), discover-data:amd64 (2.2013.01.11, automatic), libusb-0.1-4:amd64 (2:0.1.12-32, automatic), discover:amd64 (2.1.2-8)
+End-Date: 2020-10-22  17:43:47
+
+Start-Date: 2020-10-22  17:43:48
+Commandline: apt-get -o APT::Status-Fd=4 -o APT::Keep-Fds::=5 -o APT::Keep-Fds::=6 -q -y --no-remove -o APT::Install-Recommends=false install installation-report
+Install: installation-report:amd64 (2.71)
+End-Date: 2020-10-22  17:43:48
+
+Start-Date: 2020-10-22  17:43:54
+Commandline: apt-get -o APT::Status-Fd=4 -o APT::Keep-Fds::=5 -o APT::Keep-Fds::=6 -q -y --no-remove -o APT::Install-Recommends=false install popularity-contest
+Install: popularity-contest:amd64 (1.67)
+End-Date: 2020-10-22  17:43:54
+
+Start-Date: 2020-10-22  17:46:34
+Commandline: apt-get -o APT::Status-Fd=4 -o APT::Keep-Fds::=5 -o APT::Keep-Fds::=6 -q -y -o APT::Install-Recommends=true -o APT::Get::AutomaticRemove=true -o APT::Acquire::Retries=3 install task-english hdparm bash-completion perl netcat-traditional python3-reportbug ucf doc-debian python2.7 debian-faq perl-modules-5.28 apt-listchanges python liblockfile-bin telnet man-db reportbug openssh-client ncurses-term manpages wamerican dbus krb5-locales wget bind9-host traceroute libpam-systemd libnss-systemd python-minimal gettext-base lsof groff-base task-laptop
+Install: libxdmcp6:amd64 (1:1.1.2-3, automatic), manpages:amd64 (4.16-2), bluez:amd64 (5.50-1.2~deb10u1, automatic), iso-codes:amd64 (4.2-1, automatic), libssh2-1:amd64 (1.8.0-2.1, automatic), ienglish-common:amd64 (3.4.00-6, automatic), libnl-route-3-200:amd64 (3.4.0-1, automatic), libkrb5-3:amd64 (1.17-3, automatic), libgssapi-krb5-2:amd64 (1.17-3, automatic), libnghttp2-14:amd64 (1.36.0-2+deb10u1, automatic), util-linux-locales:amd64 (2.33.1-0.1, automatic), libisccfg163:amd64 (1:9.11.5.P4+dfsg-5.1+deb10u2, automatic), libdbus-1-3:amd64 (1.12.20-0+deb10u1, automatic), publicsuffix:amd64 (20190415.1030-1, automatic), liblockfile-bin:amd64 (1.14-1.1), libpcsclite1:amd64 (1.8.24-1, automatic), iw:amd64 (5.0.1-1, automatic), libsasl2-modules-db:amd64 (2.1.27+dfsg-1+deb10u1, automatic), libldap-2.4-2:amd64 (2.4.47+dfsg-3+deb10u2, automatic), libfstrm0:amd64 (0.4.0-1, automatic), openssl:amd64 (1.1.1d-0+deb10u3, automatic), libdw1:amd64 (0.176-1.1, automatic), libnl-genl-3-200:amd64 (3.4.0-1, automatic), task-english:amd64 (3.53), xdg-user-dirs:amd64 (0.17-2, automatic), libpython2-stdlib:amd64 (2.7.16-1, automatic), iamerican:amd64 (3.4.00-6, automatic), wireless-tools:amd64 (30~pre9-13, automatic), ispell:amd64 (3.4.00-6+b1, automatic), dbus:amd64 (1.12.20-0+deb10u1), libpsl5:amd64 (0.20.2-2, automatic), libasound2-data:amd64 (1.1.8-1, automatic), python2.7-minimal:amd64 (2.7.16-2+deb10u1, automatic), libicu63:amd64 (63.1-6+deb10u1, automatic), python3-urllib3:amd64 (1.24.1-1, automatic), bind9-host:amd64 (1:9.11.5.P4+dfsg-5.1+deb10u2), debian-faq:amd64 (9.0), lsof:amd64 (4.91+dfsg-1), powermgmt-base:amd64 (1.34, automatic), geoip-database:amd64 (20181108-1, automatic), perl-modules-5.28:amd64 (5.28.1-6+deb10u1), libiw30:amd64 (30~pre9-13, automatic), python3-pysimplesoap:amd64 (1.16.2-1, automatic), python2.7:amd64 (2.7.16-2+deb10u1), anacron:amd64 (2.3-28, automatic), python-apt-common:amd64 (1.8.4.1, automatic), python2:amd64 (2.7.16-1, automatic), libk5crypto3:amd64 (1.17-3, automatic), python3-idna:amd64 (2.6-1, automatic), libdaemon0:amd64 (0.14-7, automatic), python3-six:amd64 (1.12.0-1, automatic), libsasl2-2:amd64 (2.1.27+dfsg-1+deb10u1, automatic), libpipeline1:amd64 (1.5.1-2, automatic), task-laptop:amd64 (3.53), python:amd64 (2.7.16-1), libx11-6:amd64 (2:1.6.7-1+deb10u1, automatic), python3-requests:amd64 (2.21.0-1, automatic), python3-httplib2:amd64 (0.11.3-2, automatic), libisc1100:amd64 (1:9.11.5.P4+dfsg-5.1+deb10u2, automatic), ibritish:amd64 (3.4.00-6, automatic), krb5-locales:amd64 (1.17-3), liblmdb0:amd64 (0.9.22-1, automatic), python3-pycurl:amd64 (7.43.0.2-0.1, automatic), libperl5.28:amd64 (5.28.1-6+deb10u1, automatic), libpython-stdlib:amd64 (2.7.16-1, automatic), groff-base:amd64 (1.22.4-3), libxau6:amd64 (1:1.0.8-1+b2, automatic), librtmp1:amd64 (2.4+20151223.gitfa8646d.1-2, automatic), man-db:amd64 (2.8.5-2), libsasl2-modules:amd64 (2.1.27+dfsg-1+deb10u1, automatic), libgeoip1:amd64 (1.6.12-1, automatic), python3-debconf:amd64 (1.5.71, automatic), libxcb1:amd64 (1.13.1-2, automatic), python2-minimal:amd64 (2.7.16-1, automatic), reportbug:amd64 (7.5.3~deb10u1), libkrb5support0:amd64 (1.17-3, automatic), libnl-3-200:amd64 (3.4.0-1, automatic), libldap-common:amd64 (2.4.47+dfsg-3+deb10u2, automatic), libgdbm6:amd64 (1.18.1-4, automatic), liblwres161:amd64 (1:9.11.5.P4+dfsg-5.1+deb10u2, automatic), doc-debian:amd64 (6.4), ucf:amd64 (3.0038+nmu1), libkeyutils1:amd64 (1.6-6, automatic), libxmuu1:amd64 (2:1.1.2-2+b3, automatic), libprotobuf-c1:amd64 (1.3.1-1+b1, automatic), libpcre2-8-0:amd64 (10.32-5, automatic), libpam-systemd:amd64 (241-7~deb10u4), distro-info-data:amd64 (0.41+deb10u2, automatic), ncurses-term:amd64 (6.1+20181013-2+deb10u2), python3-pkg-resources:amd64 (40.8.0-1, automatic), shared-mime-info:amd64 (1.10-1, automatic), wpasupplicant:amd64 (2:2.7+git20190128+0c1e29f-6+deb10u2, automatic), powertop:amd64 (2.8-1+b2, automatic), python3-reportbug:amd64 (7.5.3~deb10u1), emacsen-common:amd64 (3.0.4, automatic), libx11-data:amd64 (2:1.6.7-1+deb10u1, automatic), openssh-client:amd64 (1:7.9p1-10+deb10u2), libnss-systemd:amd64 (241-7~deb10u4), avahi-autoipd:amd64 (0.7-4+b1, automatic), libasound2:amd64 (1.1.8-1, automatic), python3-debianbts:amd64 (2.8.2, automatic), libuchardet0:amd64 (0.0.6-3, automatic), libglib2.0-data:amd64 (2.58.3-2+deb10u2, automatic), dictionaries-common:amd64 (1.28.1, automatic), lsb-release:amd64 (10.2019051400, automatic), libxml2:amd64 (2.9.4+dfsg1-7+b3, automatic), libpython2.7-minimal:amd64 (2.7.16-2+deb10u1, automatic), libedit2:amd64 (3.1-20181209-1, automatic), ca-certificates:amd64 (20200601~deb10u1, automatic), perl:amd64 (5.28.1-6+deb10u1), xauth:amd64 (1:1.0.10-1, automatic), bluetooth:amd64 (5.50-1.2~deb10u1, automatic), apt-listchanges:amd64 (3.19), libisccc161:amd64 (1:9.11.5.P4+dfsg-5.1+deb10u2, automatic), netcat-traditional:amd64 (1.10-41.1), wget:amd64 (1.20.1-1.1), crda:amd64 (3.18-1, automatic), telnet:amd64 (0.17-41.2), libbind9-161:amd64 (1:9.11.5.P4+dfsg-5.1+deb10u2, automatic), libgdbm-compat4:amd64 (1.18.1-4, automatic), libdns1104:amd64 (1:9.11.5.P4+dfsg-5.1+deb10u2, automatic), gettext-base:amd64 (0.19.8.1-9), libpython2.7-stdlib:amd64 (2.7.16-2+deb10u1, automatic), python3-debian:amd64 (0.1.35, automatic), traceroute:amd64 (1:2.1.0-2), python3-certifi:amd64 (2018.8.24-1, automatic), python3-chardet:amd64 (3.0.4-3, automatic), python-minimal:amd64 (2.7.16-1), libglib2.0-0:amd64 (2.58.3-2+deb10u2, automatic), wireless-regdb:amd64 (2016.06.10-1, automatic), libcurl3-gnutls:amd64 (7.64.0-4+deb10u1, automatic), wamerican:amd64 (2018.04.16-1), python3-apt:amd64 (1.8.4.1, automatic), hdparm:amd64 (9.58+ds-1), bash-completion:amd64 (1:2.8-6), libxext6:amd64 (2:1.3.3-1+b2, automatic)
+End-Date: 2020-10-22  17:47:00
+
+Start-Date: 2020-10-22  17:47:06
+Commandline: apt-get -o APT::Status-Fd=4 -o APT::Keep-Fds::=5 -o APT::Keep-Fds::=6 -q -y --no-remove install grub-common
+Install: libefivar1:amd64 (37-2, automatic), os-prober:amd64 (1.77, automatic), grub-common:amd64 (2.02+dfsg1-20+deb10u2), libefiboot1:amd64 (37-2, automatic), libfuse2:amd64 (2.9.9-1+deb10u1, automatic), libfreetype6:amd64 (2.9.1-3+deb10u2, automatic), libpng16-16:amd64 (1.6.36-6, automatic)
+End-Date: 2020-10-22  17:47:07
+
+Start-Date: 2020-10-22  17:47:08
+Commandline: apt-get -o APT::Status-Fd=4 -o APT::Keep-Fds::=5 -o APT::Keep-Fds::=6 -q -y --no-remove install grub-pc
+Install: grub2-common:amd64 (2.02+dfsg1-20+deb10u2, automatic), grub-pc:amd64 (2.02+dfsg1-20+deb10u2), grub-pc-bin:amd64 (2.02+dfsg1-20+deb10u2, automatic)
+End-Date: 2020-10-22  17:47:09
+
+Start-Date: 2020-10-22  17:49:02
+Commandline: apt install net-tools
+Install: net-tools:amd64 (1.60+git20180626.aebd88e-1)
+End-Date: 2020-10-22  17:49:02
+
+Start-Date: 2020-10-22  17:49:53
+Commandline: apt install openssh-server
+Install: libwrap0:amd64 (7.6.q-28, automatic), openssh-sftp-server:amd64 (1:7.9p1-10+deb10u2, automatic), openssh-server:amd64 (1:7.9p1-10+deb10u2)
+End-Date: 2020-10-22  17:49:55

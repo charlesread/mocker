@@ -1,0 +1,138 @@
+Oct 22 17:47:36 bad kernel: [    0.000773] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Oct 22 17:47:36 bad kernel: [    0.000774] e820: remove [mem 0x000a0000-0x000fffff] usable
+Oct 22 17:47:36 bad kernel: [    0.000792] MTRR default type: write-back
+Oct 22 17:47:36 bad kernel: [    0.000793] MTRR fixed ranges enabled:
+Oct 22 17:47:36 bad kernel: [    0.000795]   00000-9FFFF write-back
+Oct 22 17:47:36 bad kernel: [    0.000795]   A0000-BFFFF uncachable
+Oct 22 17:47:36 bad kernel: [    0.000796]   C0000-C7FFF write-protect
+Oct 22 17:47:36 bad kernel: [    0.000797]   C8000-EFFFF uncachable
+Oct 22 17:47:36 bad kernel: [    0.000798]   F0000-FFFFF write-protect
+Oct 22 17:47:36 bad kernel: [    0.000799] MTRR variable ranges enabled:
+Oct 22 17:47:36 bad kernel: [    0.000800]   0 base 000000000 mask F80000000 write-back
+Oct 22 17:47:36 bad kernel: [    0.000801]   1 disabled
+Oct 22 17:47:36 bad kernel: [    0.000801]   2 disabled
+Oct 22 17:47:36 bad kernel: [    0.000802]   3 disabled
+Oct 22 17:47:36 bad kernel: [    0.000803]   4 disabled
+Oct 22 17:47:36 bad kernel: [    0.000804]   5 disabled
+Oct 22 17:47:36 bad kernel: [    0.000804]   6 disabled
+Oct 22 17:47:36 bad kernel: [    0.000805]   7 disabled
+Oct 22 17:47:36 bad kernel: [    0.002307] ACPI: Local APIC address 0xfee00000
+Oct 22 17:47:36 bad kernel: [    0.003618] On node 0 totalpages: 524170
+Oct 22 17:47:36 bad kernel: [    0.003621]   DMA zone: 64 pages used for memmap
+Oct 22 17:47:36 bad kernel: [    0.003622]   DMA zone: 21 pages reserved
+Oct 22 17:47:36 bad kernel: [    0.003623]   DMA zone: 3998 pages, LIFO batch:0
+Oct 22 17:47:36 bad kernel: [    0.003720]   DMA32 zone: 8128 pages used for memmap
+Oct 22 17:47:36 bad kernel: [    0.003721]   DMA32 zone: 520172 pages, LIFO batch:63
+Oct 22 17:47:36 bad kernel: [    0.019394] ACPI: Local APIC address 0xfee00000
+Oct 22 17:47:36 bad kernel: [    0.019478] ACPI: IRQ0 used by override.
+Oct 22 17:47:36 bad kernel: [    0.019479] ACPI: IRQ9 used by override.
+Oct 22 17:47:36 bad kernel: [    0.019480] ACPI: IRQ14 used by override.
+Oct 22 17:47:36 bad kernel: [    0.019481] ACPI: IRQ15 used by override.
+Oct 22 17:47:36 bad kernel: [    0.094390] pcpu-alloc: s144408 r8192 d31720 u262144 alloc=1*2097152
+Oct 22 17:47:36 bad kernel: [    0.094392] pcpu-alloc: [0] 00 01 02 03 04 05 06 07 [0] 08 09 10 11 12 13 14 15 
+Oct 22 17:47:36 bad kernel: [    0.094396] pcpu-alloc: [0] 16 17 18 19 20 21 22 23 [0] 24 25 26 27 28 29 30 31 
+Oct 22 17:47:36 bad kernel: [    0.095145] Calgary: detecting Calgary via BIOS EBDA area
+Oct 22 17:47:36 bad kernel: [    0.095147] Calgary: Unable to locate Rio Grande table in EBDA - bailing!
+Oct 22 17:47:36 bad kernel: [    0.116111] hpet clockevent registered
+Oct 22 17:47:36 bad kernel: [    0.136212] pci 0000:00:00.0: [8086:29a0] type 00 class 0x060000
+Oct 22 17:47:36 bad kernel: [    0.136361] pci 0000:00:01.0: [8086:2981] type 01 class 0x060401
+Oct 22 17:47:36 bad kernel: [    0.136448] pci 0000:00:01.0: PME# supported from D0 D3hot D3cold
+Oct 22 17:47:36 bad kernel: [    0.136546] pci 0000:00:03.0: [1ab8:4000] type 00 class 0xff0000
+Oct 22 17:47:36 bad kernel: [    0.136563] pci 0000:00:03.0: reg 0x10: [io  0x8000-0x801f]
+Oct 22 17:47:36 bad kernel: [    0.136666] pci 0000:00:05.0: [1af4:1000] type 00 class 0x020000
+Oct 22 17:47:36 bad kernel: [    0.136757] pci 0000:00:05.0: reg 0x10: [io  0x8200-0x823f]
+Oct 22 17:47:36 bad kernel: [    0.136828] pci 0000:00:05.0: reg 0x14: [mem 0xee000000-0xee000fff]
+Oct 22 17:47:36 bad kernel: [    0.137116] pci 0000:00:0a.0: [1011:0022] type 01 class 0x060400
+Oct 22 17:47:36 bad kernel: [    0.137208] pci 0000:00:0e.0: [1af4:1002] type 00 class 0x050000
+Oct 22 17:47:36 bad kernel: [    0.137247] pci 0000:00:0e.0: reg 0x10: [io  0xb000-0xb01f]
+Oct 22 17:47:36 bad kernel: [    0.137352] pci 0000:00:1d.0: [8086:2658] type 00 class 0x0c0300
+Oct 22 17:47:36 bad kernel: [    0.137395] pci 0000:00:1d.0: reg 0x20: [io  0xb200-0xb21f]
+Oct 22 17:47:36 bad kernel: [    0.137500] pci 0000:00:1d.6: [1033:0194] type 00 class 0x0c0330
+Oct 22 17:47:36 bad kernel: [    0.137556] pci 0000:00:1d.6: reg 0x10: [mem 0xef100000-0xef100fff]
+Oct 22 17:47:36 bad kernel: [    0.137898] pci 0000:00:1d.7: [8086:265c] type 00 class 0x0c0320
+Oct 22 17:47:36 bad kernel: [    0.137948] pci 0000:00:1d.7: reg 0x10: [mem 0xef140000-0xef1403ff]
+Oct 22 17:47:36 bad kernel: [    0.138227] pci 0000:00:1e.0: [8086:244e] type 01 class 0x060400
+Oct 22 17:47:36 bad kernel: [    0.138324] pci 0000:00:1f.0: [8086:2810] type 00 class 0x060100
+Oct 22 17:47:36 bad kernel: [    0.138453] pci 0000:00:1f.1: [8086:244b] type 00 class 0x010180
+Oct 22 17:47:36 bad kernel: [    0.138499] pci 0000:00:1f.1: reg 0x20: [io  0xe000-0xe00f]
+Oct 22 17:47:36 bad kernel: [    0.138603] pci 0000:00:1f.2: [8086:2821] type 00 class 0x010601
+Oct 22 17:47:36 bad kernel: [    0.138657] pci 0000:00:1f.2: reg 0x10: [io  0xe200-0xe207]
+Oct 22 17:47:36 bad kernel: [    0.138694] pci 0000:00:1f.2: reg 0x14: [io  0xe400-0xe403]
+Oct 22 17:47:36 bad kernel: [    0.138731] pci 0000:00:1f.2: reg 0x18: [io  0xe600-0xe607]
+Oct 22 17:47:36 bad kernel: [    0.138768] pci 0000:00:1f.2: reg 0x1c: [io  0xe800-0xe803]
+Oct 22 17:47:36 bad kernel: [    0.138804] pci 0000:00:1f.2: reg 0x20: [io  0xea00-0xea0f]
+Oct 22 17:47:36 bad kernel: [    0.138844] pci 0000:00:1f.2: reg 0x24: [mem 0xf0200000-0xf0201fff]
+Oct 22 17:47:36 bad kernel: [    0.138940] pci 0000:00:1f.2: PME# supported from D3hot
+Oct 22 17:47:36 bad kernel: [    0.138997] pci 0000:00:1f.3: [8086:283e] type 00 class 0x0c0500
+Oct 22 17:47:36 bad kernel: [    0.139037] pci 0000:00:1f.3: reg 0x10: [mem 0xf0240000-0xf0240fff]
+Oct 22 17:47:36 bad kernel: [    0.139178] pci 0000:00:1f.3: reg 0x20: [io  0xec00-0xec1f]
+Oct 22 17:47:36 bad kernel: [    0.139339] pci 0000:00:1f.4: [8086:2445] type 00 class 0x040100
+Oct 22 17:47:36 bad kernel: [    0.139363] pci 0000:00:1f.4: reg 0x10: [io  0xee00-0xeeff]
+Oct 22 17:47:36 bad kernel: [    0.139379] pci 0000:00:1f.4: reg 0x14: [io  0xf000-0xf0ff]
+Oct 22 17:47:36 bad kernel: [    0.139567] pci 0000:01:00.0: [1af4:1050] type 00 class 0x030000
+Oct 22 17:47:36 bad kernel: [    0.140400] pci 0000:01:00.0: reg 0x10: [mem 0xb0000000-0xb3ffffff pref]
+Oct 22 17:47:36 bad kernel: [    0.140961] pci 0000:01:00.0: reg 0x14: [mem 0xe2000000-0xe2000fff]
+Oct 22 17:47:36 bad kernel: [    0.141886] pci 0000:01:00.0: reg 0x18: [io  0x6000-0x601f]
+Oct 22 17:47:36 bad kernel: [    0.143421] pci 0000:01:00.0: reg 0x20: [mem 0xe2040000-0xe2043fff]
+Oct 22 17:47:36 bad kernel: [    0.144752] pci 0000:01:00.0: reg 0x30: [mem 0xe2080000-0xe208ffff pref]
+Oct 22 17:47:36 bad kernel: [    0.144843] pci 0000:00:01.0:   bridge window [io  0x6000-0x7fff]
+Oct 22 17:47:36 bad kernel: [    0.144846] pci 0000:00:01.0:   bridge window [mem 0xe2000000-0xedffffff]
+Oct 22 17:47:36 bad kernel: [    0.144850] pci 0000:00:01.0:   bridge window [mem 0xb0000000-0xdfffffff 64bit pref]
+Oct 22 17:47:36 bad kernel: [    0.144852] pci 0000:00:01.0:   bridge window [io  0x0000-0x0cf7 window] (subtractive decode)
+Oct 22 17:47:36 bad kernel: [    0.144853] pci 0000:00:01.0:   bridge window [io  0x0d00-0xffff window] (subtractive decode)
+Oct 22 17:47:36 bad kernel: [    0.144854] pci 0000:00:01.0:   bridge window [mem 0x000a0000-0x000bffff window] (subtractive decode)
+Oct 22 17:47:36 bad kernel: [    0.144855] pci 0000:00:01.0:   bridge window [mem 0x000c0000-0x000cffff window] (subtractive decode)
+Oct 22 17:47:36 bad kernel: [    0.144856] pci 0000:00:01.0:   bridge window [mem 0xb0000000-0xfebfffff window] (subtractive decode)
+Oct 22 17:47:36 bad kernel: [    0.144906] pci 0000:00:0a.0:   bridge window [io  0x9000-0xafff]
+Oct 22 17:47:36 bad kernel: [    0.144909] pci 0000:00:0a.0:   bridge window [mem 0xee100000-0xef0fffff]
+Oct 22 17:47:36 bad kernel: [    0.144911] pci 0000:00:0a.0:   bridge window [mem 0xe0000000-0xe0ffffff pref]
+Oct 22 17:47:36 bad kernel: [    0.145004] pci 0000:00:1e.0:   bridge window [io  0xc000-0xdfff]
+Oct 22 17:47:36 bad kernel: [    0.145007] pci 0000:00:1e.0:   bridge window [mem 0xef200000-0xf01fffff]
+Oct 22 17:47:36 bad kernel: [    0.145011] pci 0000:00:1e.0:   bridge window [mem 0xe1000000-0xe1ffffff 64bit pref]
+Oct 22 17:47:36 bad kernel: [    0.145012] pci 0000:00:1e.0:   bridge window [io  0x0000-0x0cf7 window] (subtractive decode)
+Oct 22 17:47:36 bad kernel: [    0.145013] pci 0000:00:1e.0:   bridge window [io  0x0d00-0xffff window] (subtractive decode)
+Oct 22 17:47:36 bad kernel: [    0.145014] pci 0000:00:1e.0:   bridge window [mem 0x000a0000-0x000bffff window] (subtractive decode)
+Oct 22 17:47:36 bad kernel: [    0.145015] pci 0000:00:1e.0:   bridge window [mem 0x000c0000-0x000cffff window] (subtractive decode)
+Oct 22 17:47:36 bad kernel: [    0.145016] pci 0000:00:1e.0:   bridge window [mem 0xb0000000-0xfebfffff window] (subtractive decode)
+Oct 22 17:47:36 bad kernel: [    0.146884] PCI: pci_cache_line_size set to 64 bytes
+Oct 22 17:47:36 bad kernel: [    0.146884] e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+Oct 22 17:47:36 bad kernel: [    0.146884] e820: reserve RAM buffer [mem 0x7ffec000-0x7fffffff]
+Oct 22 17:47:36 bad kernel: [    0.157884] pnp 00:00: Plug and Play ACPI device, IDs PNP0303 (active)
+Oct 22 17:47:36 bad kernel: [    0.157899] pnp 00:01: Plug and Play ACPI device, IDs PNP0f03 (active)
+Oct 22 17:47:36 bad kernel: [    0.157917] pnp 00:02: Plug and Play ACPI device, IDs PNP0b00 (active)
+Oct 22 17:47:36 bad kernel: [    0.157961] system 00:03: Plug and Play ACPI device, IDs PNP0c01 (active)
+Oct 22 17:47:36 bad kernel: [    0.157991] system 00:04: Plug and Play ACPI device, IDs PNP0c02 (active)
+Oct 22 17:47:36 bad kernel: [    0.190285] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+Oct 22 17:47:36 bad kernel: [    0.190286] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+Oct 22 17:47:36 bad kernel: [    0.190287] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+Oct 22 17:47:36 bad kernel: [    0.190288] pci_bus 0000:00: resource 7 [mem 0x000c0000-0x000cffff window]
+Oct 22 17:47:36 bad kernel: [    0.190289] pci_bus 0000:00: resource 8 [mem 0xb0000000-0xfebfffff window]
+Oct 22 17:47:36 bad kernel: [    0.190290] pci_bus 0000:01: resource 0 [io  0x6000-0x7fff]
+Oct 22 17:47:36 bad kernel: [    0.190291] pci_bus 0000:01: resource 1 [mem 0xe2000000-0xedffffff]
+Oct 22 17:47:36 bad kernel: [    0.190292] pci_bus 0000:01: resource 2 [mem 0xb0000000-0xdfffffff 64bit pref]
+Oct 22 17:47:36 bad kernel: [    0.190293] pci_bus 0000:01: resource 4 [io  0x0000-0x0cf7 window]
+Oct 22 17:47:36 bad kernel: [    0.190294] pci_bus 0000:01: resource 5 [io  0x0d00-0xffff window]
+Oct 22 17:47:36 bad kernel: [    0.190295] pci_bus 0000:01: resource 6 [mem 0x000a0000-0x000bffff window]
+Oct 22 17:47:36 bad kernel: [    0.190296] pci_bus 0000:01: resource 7 [mem 0x000c0000-0x000cffff window]
+Oct 22 17:47:36 bad kernel: [    0.190297] pci_bus 0000:01: resource 8 [mem 0xb0000000-0xfebfffff window]
+Oct 22 17:47:36 bad kernel: [    0.190298] pci_bus 0000:02: resource 0 [io  0x9000-0xafff]
+Oct 22 17:47:36 bad kernel: [    0.190299] pci_bus 0000:02: resource 1 [mem 0xee100000-0xef0fffff]
+Oct 22 17:47:36 bad kernel: [    0.190300] pci_bus 0000:02: resource 2 [mem 0xe0000000-0xe0ffffff pref]
+Oct 22 17:47:36 bad kernel: [    0.190301] pci_bus 0000:03: resource 0 [io  0xc000-0xdfff]
+Oct 22 17:47:36 bad kernel: [    0.190302] pci_bus 0000:03: resource 1 [mem 0xef200000-0xf01fffff]
+Oct 22 17:47:36 bad kernel: [    0.190303] pci_bus 0000:03: resource 2 [mem 0xe1000000-0xe1ffffff 64bit pref]
+Oct 22 17:47:36 bad kernel: [    0.190304] pci_bus 0000:03: resource 4 [io  0x0000-0x0cf7 window]
+Oct 22 17:47:36 bad kernel: [    0.190304] pci_bus 0000:03: resource 5 [io  0x0d00-0xffff window]
+Oct 22 17:47:36 bad kernel: [    0.190307] pci_bus 0000:03: resource 6 [mem 0x000a0000-0x000bffff window]
+Oct 22 17:47:36 bad kernel: [    0.190307] pci_bus 0000:03: resource 7 [mem 0x000c0000-0x000cffff window]
+Oct 22 17:47:36 bad kernel: [    0.190308] pci_bus 0000:03: resource 8 [mem 0xb0000000-0xfebfffff window]
+Oct 22 17:47:36 bad kernel: [    0.193949] PCI: CLS 0 bytes, default 64
+Oct 22 17:47:36 bad kernel: [    0.603181] intel_idle: Please enable MWAIT in BIOS SETUP
+Oct 22 17:47:36 bad kernel: [    0.749237] xhci_hcd 0000:00:1d.6: cache line size of 64 is not supported
+Oct 22 17:47:36 bad kernel: [    0.756992] ehci-pci 0000:00:1d.7: cache line size of 64 is not supported
+Oct 22 17:47:36 bad kernel: [    0.779808] libata version 3.00 loaded.
+Oct 22 17:47:36 bad kernel: [    0.780577] ata_piix 0000:00:1f.1: version 2.13
+Oct 22 17:47:36 bad kernel: [    0.782009] ahci 0000:00:1f.2: version 3.0
+Oct 22 17:47:36 bad kernel: [    2.691001] sd 1:0:0:0: [sda] Mode Sense: 00 3a 00 00
+Oct 22 17:47:36 bad kernel: [    2.721456] sr 3:0:0:0: Attached scsi CD-ROM sr0
+Oct 22 17:47:36 bad kernel: [    3.045347] PM: Image not found (code -22)

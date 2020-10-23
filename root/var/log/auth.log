@@ -1,0 +1,29 @@
+Oct 22 17:47:36 bad systemd-logind[437]: New seat seat0.
+Oct 22 17:47:36 bad systemd-logind[437]: Watching system buttons on /dev/input/event4 (Power Button)
+Oct 22 17:47:36 bad systemd-logind[437]: Watching system buttons on /dev/input/event5 (Sleep Button)
+Oct 22 17:47:36 bad systemd-logind[437]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Oct 22 17:47:42 bad login[450]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Oct 22 17:47:42 bad systemd-logind[437]: New session 1 of user root.
+Oct 22 17:47:42 bad systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Oct 22 17:47:42 bad login[499]: ROOT LOGIN  on '/dev/tty1'
+Oct 22 17:48:13 bad login[450]: pam_unix(login:session): session closed for user root
+Oct 22 17:48:13 bad systemd-logind[437]: Session 1 logged out. Waiting for processes to exit.
+Oct 22 17:48:13 bad systemd-logind[437]: Removed session 1.
+Oct 22 17:48:17 bad login[526]: pam_unix(login:session): session opened for user cread by LOGIN(uid=0)
+Oct 22 17:48:17 bad systemd-logind[437]: New session 3 of user cread.
+Oct 22 17:48:17 bad systemd: pam_unix(systemd-user:session): session opened for user cread by (uid=0)
+Oct 22 17:48:23 bad systemd: pam_unix(systemd-user:session): session closed for user root
+Oct 22 17:48:42 bad su: pam_unix(su:auth): authentication failure; logname=cread uid=1000 euid=0 tty=tty1 ruser=cread rhost=  user=root
+Oct 22 17:48:43 bad su: FAILED SU (to root) cread on tty1
+Oct 22 17:48:48 bad su: (to root) cread on tty1
+Oct 22 17:48:48 bad su: pam_unix(su:session): session opened for user root by cread(uid=1000)
+Oct 22 17:49:54 bad useradd[1135]: new user: name=sshd, UID=106, GID=65534, home=/run/sshd, shell=/usr/sbin/nologin
+Oct 22 17:49:54 bad usermod[1141]: change user 'sshd' password
+Oct 22 17:49:54 bad chage[1146]: changed password expiry for sshd
+Oct 22 17:49:54 bad sshd[1239]: Server listening on 0.0.0.0 port 22.
+Oct 22 17:49:54 bad sshd[1239]: Server listening on :: port 22.
+Oct 22 17:50:02 bad sshd[1293]: Accepted password for cread from 10.211.55.2 port 57177 ssh2
+Oct 22 17:50:02 bad sshd[1293]: pam_unix(sshd:session): session opened for user cread by (uid=0)
+Oct 22 17:50:02 bad systemd-logind[437]: New session 5 of user cread.
+Oct 22 17:50:31 bad su: (to root) cread on pts/0
+Oct 22 17:50:31 bad su: pam_unix(su:session): session opened for user root by cread(uid=1000)

@@ -1,0 +1,502 @@
+Oct 22 17:47:36 bad rsyslogd: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.1901.0]
+Oct 22 17:47:36 bad rsyslogd:  [origin software="rsyslogd" swVersion="8.1901.0" x-pid="438" x-info="https://www.rsyslog.com"] start
+Oct 22 17:47:36 bad kernel: [    0.000000] Linux version 4.19.0-12-amd64 (debian-kernel@lists.debian.org) (gcc version 8.3.0 (Debian 8.3.0-6)) #1 SMP Debian 4.19.152-1 (2020-10-18)
+Oct 22 17:47:36 bad kernel: [    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-4.19.0-12-amd64 root=UUID=b820a6a2-c904-4c05-94a3-668c48dce976 ro quiet
+Oct 22 17:47:36 bad kernel: [    0.000000] Disabled fast string operations
+Oct 22 17:47:36 bad kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+Oct 22 17:47:36 bad kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+Oct 22 17:47:36 bad kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+Oct 22 17:47:36 bad kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x008: 'MPX bounds registers'
+Oct 22 17:47:36 bad kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x010: 'MPX CSR'
+Oct 22 17:47:36 bad kernel: [    0.000000] x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+Oct 22 17:47:36 bad kernel: [    0.000000] x86/fpu: xstate_offset[3]:  832, xstate_sizes[3]:   64
+Oct 22 17:47:36 bad kernel: [    0.000000] x86/fpu: xstate_offset[4]:  896, xstate_sizes[4]:   64
+Oct 22 17:47:36 bad kernel: [    0.000000] x86/fpu: Enabled xstate features 0x1f, context size is 960 bytes, using 'compacted' format.
+Oct 22 17:47:36 bad kernel: [    0.000000] BIOS-provided physical RAM map:
+Oct 22 17:47:36 bad kernel: [    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+Oct 22 17:47:36 bad kernel: [    0.000000] BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved
+Oct 22 17:47:36 bad kernel: [    0.000000] BIOS-e820: [mem 0x00000000000dc000-0x00000000000fffff] reserved
+Oct 22 17:47:36 bad kernel: [    0.000000] BIOS-e820: [mem 0x0000000000100000-0x000000007ffebfff] usable
+Oct 22 17:47:36 bad kernel: [    0.000000] BIOS-e820: [mem 0x000000007ffec000-0x000000007ffedfff] reserved
+Oct 22 17:47:36 bad kernel: [    0.000000] BIOS-e820: [mem 0x000000007ffee000-0x000000007fffafff] ACPI data
+Oct 22 17:47:36 bad kernel: [    0.000000] BIOS-e820: [mem 0x000000007fffb000-0x000000007fffffff] ACPI NVS
+Oct 22 17:47:36 bad kernel: [    0.000000] BIOS-e820: [mem 0x00000000fec00000-0x00000000fec00fff] reserved
+Oct 22 17:47:36 bad kernel: [    0.000000] BIOS-e820: [mem 0x00000000fed00000-0x00000000fed00fff] reserved
+Oct 22 17:47:36 bad kernel: [    0.000000] BIOS-e820: [mem 0x00000000fed04000-0x00000000fed04fff] reserved
+Oct 22 17:47:36 bad kernel: [    0.000000] BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff] reserved
+Oct 22 17:47:36 bad kernel: [    0.000000] BIOS-e820: [mem 0x00000000ffc00000-0x00000000ffffffff] reserved
+Oct 22 17:47:36 bad kernel: [    0.000000] NX (Execute Disable) protection: active
+Oct 22 17:47:36 bad kernel: [    0.000000] SMBIOS 2.7 present.
+Oct 22 17:47:36 bad kernel: [    0.000000] DMI: Parallels Software International Inc. Parallels Virtual Platform/Parallels Virtual Platform, BIOS 15.1.4 (47270) 04/13/2020
+Oct 22 17:47:36 bad kernel: [    0.000000] Hypervisor detected: KVM
+Oct 22 17:47:36 bad kernel: [    0.000000] kvm-clock: Using msrs 4b564d01 and 4b564d00
+Oct 22 17:47:36 bad kernel: [    0.000000] kvm-clock: cpu 0, msr 263eb001, primary cpu clock
+Oct 22 17:47:36 bad kernel: [    0.000001] kvm-clock: using sched offset of 3375688998 cycles
+Oct 22 17:47:36 bad kernel: [    0.000003] clocksource: kvm-clock: mask: 0xffffffffffffffff max_cycles: 0x1cd42e4dffb, max_idle_ns: 881590591483 ns
+Oct 22 17:47:36 bad kernel: [    0.000004] tsc: Detected 2400.000 MHz processor
+Oct 22 17:47:36 bad kernel: [    0.000778] last_pfn = 0x7ffec max_arch_pfn = 0x400000000
+Oct 22 17:47:36 bad kernel: [    0.001450] x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- WT  
+Oct 22 17:47:36 bad kernel: [    0.001983] found SMP MP-table at [mem 0x0009fc30-0x0009fc3f]
+Oct 22 17:47:36 bad kernel: [    0.002219] RAMDISK: [mem 0x34ea3000-0x36748fff]
+Oct 22 17:47:36 bad kernel: [    0.002235] ACPI: Early table checksum verification disabled
+Oct 22 17:47:36 bad kernel: [    0.002260] ACPI: RSDP 0x00000000000E0000 000024 (v02 PRLS  )
+Oct 22 17:47:36 bad kernel: [    0.002266] ACPI: XSDT 0x000000007FFF2C80 00004C (v01 PRLS   PRLS_OEM 00000001 INTL 20051216)
+Oct 22 17:47:36 bad kernel: [    0.002273] ACPI: FACP 0x000000007FFEE0C0 0000F4 (v03 PRLS   PRLS_OEM 00000001 INTL 20051216)
+Oct 22 17:47:36 bad kernel: [    0.002278] ACPI: DSDT 0x000000007FFEE440 0047A4 (v02 PRLS   PRLSACPI 00001001 INTL 20160527)
+Oct 22 17:47:36 bad kernel: [    0.002281] ACPI: FACS 0x000000007FFEE1C0 000040
+Oct 22 17:47:36 bad kernel: [    0.002284] ACPI: FACS 0x000000007FFEE1C0 000040
+Oct 22 17:47:36 bad kernel: [    0.002286] ACPI: APIC 0x000000007FFEE200 000216 (v01 PRLS   PRLS_OEM 00000001 INTL 20051216)
+Oct 22 17:47:36 bad kernel: [    0.002289] ACPI: HPET 0x000000007FFF2C00 000038 (v00 PRLS   PRLS_OEM 00000001 INTL 20051216)
+Oct 22 17:47:36 bad kernel: [    0.002291] ACPI: MCFG 0x000000007FFF2C40 00003C (v01 PRLS   PRLS_OEM 00000001 INTL 20051216)
+Oct 22 17:47:36 bad kernel: [    0.002294] ACPI: OEM1 0x000000007FFF2D00 000394 (v01 PRLS   PRLS_OEM 00000001 INTL 20051216)
+Oct 22 17:47:36 bad kernel: [    0.002532] No NUMA configuration found
+Oct 22 17:47:36 bad kernel: [    0.002534] Faking a node at [mem 0x0000000000000000-0x000000007ffebfff]
+Oct 22 17:47:36 bad kernel: [    0.002538] NODE_DATA(0) allocated [mem 0x7ffe7000-0x7ffebfff]
+Oct 22 17:47:36 bad kernel: [    0.002750] Zone ranges:
+Oct 22 17:47:36 bad kernel: [    0.002756]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+Oct 22 17:47:36 bad kernel: [    0.002760]   DMA32    [mem 0x0000000001000000-0x000000007ffebfff]
+Oct 22 17:47:36 bad kernel: [    0.002762]   Normal   empty
+Oct 22 17:47:36 bad kernel: [    0.002792]   Device   empty
+Oct 22 17:47:36 bad kernel: [    0.002794] Movable zone start for each node
+Oct 22 17:47:36 bad kernel: [    0.002796] Early memory node ranges
+Oct 22 17:47:36 bad kernel: [    0.002798]   node   0: [mem 0x0000000000001000-0x000000000009efff]
+Oct 22 17:47:36 bad kernel: [    0.002798]   node   0: [mem 0x0000000000100000-0x000000007ffebfff]
+Oct 22 17:47:36 bad kernel: [    0.003615] Zeroed struct page in unavailable ranges: 118 pages
+Oct 22 17:47:36 bad kernel: [    0.003617] Initmem setup node 0 [mem 0x0000000000001000-0x000000007ffebfff]
+Oct 22 17:47:36 bad kernel: [    0.019390] ACPI: PM-Timer IO Port: 0x4008
+Oct 22 17:47:36 bad kernel: [    0.019406] ACPI: LAPIC_NMI (acpi_id[0x00] high edge lint[0x1])
+Oct 22 17:47:36 bad kernel: [    0.019407] ACPI: LAPIC_NMI (acpi_id[0x01] high edge lint[0x1])
+Oct 22 17:47:36 bad kernel: [    0.019408] ACPI: LAPIC_NMI (acpi_id[0x02] high edge lint[0x1])
+Oct 22 17:47:36 bad kernel: [    0.019409] ACPI: LAPIC_NMI (acpi_id[0x03] high edge lint[0x1])
+Oct 22 17:47:36 bad kernel: [    0.019410] ACPI: LAPIC_NMI (acpi_id[0x04] high edge lint[0x1])
+Oct 22 17:47:36 bad kernel: [    0.019411] ACPI: LAPIC_NMI (acpi_id[0x05] high edge lint[0x1])
+Oct 22 17:47:36 bad kernel: [    0.019411] ACPI: LAPIC_NMI (acpi_id[0x06] high edge lint[0x1])
+Oct 22 17:47:36 bad kernel: [    0.019412] ACPI: LAPIC_NMI (acpi_id[0x07] high edge lint[0x1])
+Oct 22 17:47:36 bad kernel: [    0.019413] ACPI: LAPIC_NMI (acpi_id[0x08] high edge lint[0x1])
+Oct 22 17:47:36 bad kernel: [    0.019414] ACPI: LAPIC_NMI (acpi_id[0x09] high edge lint[0x1])
+Oct 22 17:47:36 bad kernel: [    0.019415] ACPI: LAPIC_NMI (acpi_id[0x0a] high edge lint[0x1])
+Oct 22 17:47:36 bad kernel: [    0.019415] ACPI: LAPIC_NMI (acpi_id[0x0b] high edge lint[0x1])
+Oct 22 17:47:36 bad kernel: [    0.019416] ACPI: LAPIC_NMI (acpi_id[0x0c] high edge lint[0x1])
+Oct 22 17:47:36 bad kernel: [    0.019417] ACPI: LAPIC_NMI (acpi_id[0x0d] high edge lint[0x1])
+Oct 22 17:47:36 bad kernel: [    0.019418] ACPI: LAPIC_NMI (acpi_id[0x0e] high edge lint[0x1])
+Oct 22 17:47:36 bad kernel: [    0.019418] ACPI: LAPIC_NMI (acpi_id[0x0f] high edge lint[0x1])
+Oct 22 17:47:36 bad kernel: [    0.019419] ACPI: LAPIC_NMI (acpi_id[0x10] high edge lint[0x1])
+Oct 22 17:47:36 bad kernel: [    0.019420] ACPI: LAPIC_NMI (acpi_id[0x11] high edge lint[0x1])
+Oct 22 17:47:36 bad kernel: [    0.019421] ACPI: LAPIC_NMI (acpi_id[0x12] high edge lint[0x1])
+Oct 22 17:47:36 bad kernel: [    0.019421] ACPI: LAPIC_NMI (acpi_id[0x13] high edge lint[0x1])
+Oct 22 17:47:36 bad kernel: [    0.019422] ACPI: LAPIC_NMI (acpi_id[0x14] high edge lint[0x1])
+Oct 22 17:47:36 bad kernel: [    0.019423] ACPI: LAPIC_NMI (acpi_id[0x15] high edge lint[0x1])
+Oct 22 17:47:36 bad kernel: [    0.019425] ACPI: LAPIC_NMI (acpi_id[0x16] high edge lint[0x1])
+Oct 22 17:47:36 bad kernel: [    0.019425] ACPI: LAPIC_NMI (acpi_id[0x17] high edge lint[0x1])
+Oct 22 17:47:36 bad kernel: [    0.019426] ACPI: LAPIC_NMI (acpi_id[0x18] high edge lint[0x1])
+Oct 22 17:47:36 bad kernel: [    0.019427] ACPI: LAPIC_NMI (acpi_id[0x19] high edge lint[0x1])
+Oct 22 17:47:36 bad kernel: [    0.019428] ACPI: LAPIC_NMI (acpi_id[0x1a] high edge lint[0x1])
+Oct 22 17:47:36 bad kernel: [    0.019428] ACPI: LAPIC_NMI (acpi_id[0x1b] high edge lint[0x1])
+Oct 22 17:47:36 bad kernel: [    0.019429] ACPI: LAPIC_NMI (acpi_id[0x1c] high edge lint[0x1])
+Oct 22 17:47:36 bad kernel: [    0.019430] ACPI: LAPIC_NMI (acpi_id[0x1d] high edge lint[0x1])
+Oct 22 17:47:36 bad kernel: [    0.019431] ACPI: LAPIC_NMI (acpi_id[0x1e] high edge lint[0x1])
+Oct 22 17:47:36 bad kernel: [    0.019431] ACPI: LAPIC_NMI (acpi_id[0x1f] high edge lint[0x1])
+Oct 22 17:47:36 bad kernel: [    0.019468] IOAPIC[0]: apic_id 0, version 2, address 0xfec00000, GSI 0-23
+Oct 22 17:47:36 bad kernel: [    0.019472] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Oct 22 17:47:36 bad kernel: [    0.019474] ACPI: INT_SRC_OVR (bus 0 bus_irq 14 global_irq 14 dfl edge)
+Oct 22 17:47:36 bad kernel: [    0.019475] ACPI: INT_SRC_OVR (bus 0 bus_irq 15 global_irq 15 dfl edge)
+Oct 22 17:47:36 bad kernel: [    0.019483] Using ACPI (MADT) for SMP configuration information
+Oct 22 17:47:36 bad kernel: [    0.019486] ACPI: HPET id: 0x8086a701 base: 0xfed00000
+Oct 22 17:47:36 bad kernel: [    0.019491] TSC deadline timer available
+Oct 22 17:47:36 bad kernel: [    0.019495] smpboot: Allowing 32 CPUs, 30 hotplug CPUs
+Oct 22 17:47:36 bad kernel: [    0.019526] PM: Registered nosave memory: [mem 0x00000000-0x00000fff]
+Oct 22 17:47:36 bad kernel: [    0.019527] PM: Registered nosave memory: [mem 0x0009f000-0x0009ffff]
+Oct 22 17:47:36 bad kernel: [    0.019528] PM: Registered nosave memory: [mem 0x000a0000-0x000dbfff]
+Oct 22 17:47:36 bad kernel: [    0.019529] PM: Registered nosave memory: [mem 0x000dc000-0x000fffff]
+Oct 22 17:47:36 bad kernel: [    0.019531] [mem 0x80000000-0xfebfffff] available for PCI devices
+Oct 22 17:47:36 bad kernel: [    0.019534] Booting paravirtualized kernel on KVM
+Oct 22 17:47:36 bad kernel: [    0.019543] clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645519600211568 ns
+Oct 22 17:47:36 bad kernel: [    0.089955] random: get_random_bytes called from start_kernel+0x93/0x52a with crng_init=0
+Oct 22 17:47:36 bad kernel: [    0.089965] setup_percpu: NR_CPUS:512 nr_cpumask_bits:512 nr_cpu_ids:32 nr_node_ids:1
+Oct 22 17:47:36 bad kernel: [    0.094378] percpu: Embedded 45 pages/cpu s144408 r8192 d31720 u262144
+Oct 22 17:47:36 bad kernel: [    0.094438] Built 1 zonelists, mobility grouping on.  Total pages: 515957
+Oct 22 17:47:36 bad kernel: [    0.094439] Policy zone: DMA32
+Oct 22 17:47:36 bad kernel: [    0.094442] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-4.19.0-12-amd64 root=UUID=b820a6a2-c904-4c05-94a3-668c48dce976 ro quiet
+Oct 22 17:47:36 bad kernel: [    0.094513] log_buf_len individual max cpu contribution: 4096 bytes
+Oct 22 17:47:36 bad kernel: [    0.094514] log_buf_len total cpu_extra contributions: 126976 bytes
+Oct 22 17:47:36 bad kernel: [    0.094515] log_buf_len min size: 131072 bytes
+Oct 22 17:47:36 bad kernel: [    0.094665] log_buf_len: 262144 bytes
+Oct 22 17:47:36 bad kernel: [    0.094667] early log buf free: 120772(92%)
+Oct 22 17:47:36 bad kernel: [    0.099934] Memory: 2007712K/2096680K available (10252K kernel code, 1247K rwdata, 3312K rodata, 1596K init, 2264K bss, 88968K reserved, 0K cma-reserved)
+Oct 22 17:47:36 bad kernel: [    0.100564] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=32, Nodes=1
+Oct 22 17:47:36 bad kernel: [    0.100594] Kernel/User page tables isolation: enabled
+Oct 22 17:47:36 bad kernel: [    0.100711] ftrace: allocating 31917 entries in 125 pages
+Oct 22 17:47:36 bad kernel: [    0.113209] rcu: Hierarchical RCU implementation.
+Oct 22 17:47:36 bad kernel: [    0.113212] rcu: 	RCU restricting CPUs from NR_CPUS=512 to nr_cpu_ids=32.
+Oct 22 17:47:36 bad kernel: [    0.113215] rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=32
+Oct 22 17:47:36 bad kernel: [    0.115523] NR_IRQS: 33024, nr_irqs: 680, preallocated irqs: 16
+Oct 22 17:47:36 bad kernel: [    0.115888] Console: colour VGA+ 80x25
+Oct 22 17:47:36 bad kernel: [    0.115890] console [tty0] enabled
+Oct 22 17:47:36 bad kernel: [    0.115908] ACPI: Core revision 20180810
+Oct 22 17:47:36 bad kernel: [    0.116089] clocksource: hpet: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 119453777892 ns
+Oct 22 17:47:36 bad kernel: [    0.116116] APIC: Switch to symmetric I/O mode setup
+Oct 22 17:47:36 bad kernel: [    0.116233] x2apic enabled
+Oct 22 17:47:36 bad kernel: [    0.116323] Switched APIC routing to physical x2apic.
+Oct 22 17:47:36 bad kernel: [    0.116792] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+Oct 22 17:47:36 bad kernel: [    0.116815] clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x22983777dd9, max_idle_ns: 440795300422 ns
+Oct 22 17:47:36 bad kernel: [    0.116830] Calibrating delay loop (skipped) preset value.. 4800.00 BogoMIPS (lpj=9600000)
+Oct 22 17:47:36 bad kernel: [    0.116831] pid_max: default: 32768 minimum: 301
+Oct 22 17:47:36 bad kernel: [    0.116863] Security Framework initialized
+Oct 22 17:47:36 bad kernel: [    0.116866] Yama: disabled by default; enable with sysctl kernel.yama.*
+Oct 22 17:47:36 bad kernel: [    0.116930] AppArmor: AppArmor initialized
+Oct 22 17:47:36 bad kernel: [    0.117822] Dentry cache hash table entries: 262144 (order: 9, 2097152 bytes)
+Oct 22 17:47:36 bad kernel: [    0.118378] Inode-cache hash table entries: 131072 (order: 8, 1048576 bytes)
+Oct 22 17:47:36 bad kernel: [    0.118393] Mount-cache hash table entries: 4096 (order: 3, 32768 bytes)
+Oct 22 17:47:36 bad kernel: [    0.118403] Mountpoint-cache hash table entries: 4096 (order: 3, 32768 bytes)
+Oct 22 17:47:36 bad kernel: [    0.118610] Disabled fast string operations
+Oct 22 17:47:36 bad kernel: [    0.118635] Last level iTLB entries: 4KB 64, 2MB 8, 4MB 8
+Oct 22 17:47:36 bad kernel: [    0.118636] Last level dTLB entries: 4KB 64, 2MB 0, 4MB 0, 1GB 4
+Oct 22 17:47:36 bad kernel: [    0.118637] Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+Oct 22 17:47:36 bad kernel: [    0.118638] Spectre V2 : Mitigation: Full generic retpoline
+Oct 22 17:47:36 bad kernel: [    0.118639] Spectre V2 : Spectre v2 / SpectreRSB mitigation: Filling RSB on context switch
+Oct 22 17:47:36 bad kernel: [    0.118640] Speculative Store Bypass: Vulnerable
+Oct 22 17:47:36 bad kernel: [    0.118671] SRBDS: Unknown: Dependent on hypervisor status
+Oct 22 17:47:36 bad kernel: [    0.118671] MDS: Vulnerable: Clear CPU buffers attempted, no microcode
+Oct 22 17:47:36 bad kernel: [    0.118869] Freeing SMP alternatives memory: 24K
+Oct 22 17:47:36 bad kernel: [    0.120044] smpboot: CPU0: Intel(R) Core(TM) i9-9980HK CPU @ 2.40GHz (family: 0x6, model: 0x9e, stepping: 0xd)
+Oct 22 17:47:36 bad kernel: [    0.120175] Performance Events: unsupported p6 CPU model 158 no PMU driver, software events only.
+Oct 22 17:47:36 bad kernel: [    0.120216] rcu: Hierarchical SRCU implementation.
+Oct 22 17:47:36 bad kernel: [    0.120604] random: crng done (trusting CPU's manufacturer)
+Oct 22 17:47:36 bad kernel: [    0.120617] NMI watchdog: Perf NMI watchdog permanently disabled
+Oct 22 17:47:36 bad kernel: [    0.120817] smp: Bringing up secondary CPUs ...
+Oct 22 17:47:36 bad kernel: [    0.120817] x86: Booting SMP configuration:
+Oct 22 17:47:36 bad kernel: [    0.120817] .... node  #0, CPUs:        #1
+Oct 22 17:47:36 bad kernel: [    0.001162] kvm-clock: cpu 1, msr 263eb041, secondary cpu clock
+Oct 22 17:47:36 bad kernel: [    0.001162] Disabled fast string operations
+Oct 22 17:47:36 bad kernel: [    0.120817] smp: Brought up 1 node, 2 CPUs
+Oct 22 17:47:36 bad kernel: [    0.120817] smpboot: Max logical packages: 16
+Oct 22 17:47:36 bad kernel: [    0.120817] smpboot: Total of 2 processors activated (9600.00 BogoMIPS)
+Oct 22 17:47:36 bad kernel: [    0.123176] devtmpfs: initialized
+Oct 22 17:47:36 bad kernel: [    0.123176] x86/mm: Memory block size: 128MB
+Oct 22 17:47:36 bad kernel: [    0.123176] PM: Registering ACPI NVS region [mem 0x7fffb000-0x7fffffff] (20480 bytes)
+Oct 22 17:47:36 bad kernel: [    0.123176] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+Oct 22 17:47:36 bad kernel: [    0.123176] futex hash table entries: 8192 (order: 7, 524288 bytes)
+Oct 22 17:47:36 bad kernel: [    0.123176] pinctrl core: initialized pinctrl subsystem
+Oct 22 17:47:36 bad kernel: [    0.123176] NET: Registered protocol family 16
+Oct 22 17:47:36 bad kernel: [    0.123176] audit: initializing netlink subsys (disabled)
+Oct 22 17:47:36 bad kernel: [    0.124882] audit: type=2000 audit(1603403252.012:1): state=initialized audit_enabled=0 res=1
+Oct 22 17:47:36 bad kernel: [    0.125009] cpuidle: using governor ladder
+Oct 22 17:47:36 bad kernel: [    0.125009] cpuidle: using governor menu
+Oct 22 17:47:36 bad kernel: [    0.125009] ACPI: bus type PCI registered
+Oct 22 17:47:36 bad kernel: [    0.125009] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Oct 22 17:47:36 bad kernel: [    0.125009] PCI: MMCONFIG for domain 0000 [bus 00-0f] at [mem 0xfc000000-0xfcffffff] (base 0xfc000000)
+Oct 22 17:47:36 bad kernel: [    0.125010] PCI: not using MMCONFIG
+Oct 22 17:47:36 bad kernel: [    0.125012] PCI: Using configuration type 1 for base access
+Oct 22 17:47:36 bad kernel: [    0.125050] mtrr: your CPUs had inconsistent variable MTRR settings
+Oct 22 17:47:36 bad kernel: [    0.125050] mtrr: probably your BIOS does not setup all CPUs.
+Oct 22 17:47:36 bad kernel: [    0.125050] mtrr: corrected configuration.
+Oct 22 17:47:36 bad kernel: [    0.125304] HugeTLB registered 2.00 MiB page size, pre-allocated 0 pages
+Oct 22 17:47:36 bad kernel: [    0.125304] ACPI: Added _OSI(Module Device)
+Oct 22 17:47:36 bad kernel: [    0.125304] ACPI: Added _OSI(Processor Device)
+Oct 22 17:47:36 bad kernel: [    0.125304] ACPI: Added _OSI(3.0 _SCP Extensions)
+Oct 22 17:47:36 bad kernel: [    0.125304] ACPI: Added _OSI(Processor Aggregator Device)
+Oct 22 17:47:36 bad kernel: [    0.125304] ACPI: Added _OSI(Linux-Dell-Video)
+Oct 22 17:47:36 bad kernel: [    0.125304] ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+Oct 22 17:47:36 bad kernel: [    0.125602] ACPI: 1 ACPI AML tables successfully acquired and loaded
+Oct 22 17:47:36 bad kernel: [    0.129479] ACPI: EC: EC started
+Oct 22 17:47:36 bad kernel: [    0.129480] ACPI: EC: interrupt blocked
+Oct 22 17:47:36 bad kernel: [    0.129497] ACPI: \_SB_.PCI0.PX40.EC__: Used as first EC
+Oct 22 17:47:36 bad kernel: [    0.129498] ACPI: \_SB_.PCI0.PX40.EC__: GPE=0xa, EC_CMD/EC_SC=0x66, EC_DATA=0x62
+Oct 22 17:47:36 bad kernel: [    0.129500] ACPI: \_SB_.PCI0.PX40.EC__: Used as boot DSDT EC to handle transactions
+Oct 22 17:47:36 bad kernel: [    0.129500] ACPI: Interpreter enabled
+Oct 22 17:47:36 bad kernel: [    0.129514] ACPI: (supports S0 S3 S4 S5)
+Oct 22 17:47:36 bad kernel: [    0.129516] ACPI: Using IOAPIC for interrupt routing
+Oct 22 17:47:36 bad kernel: [    0.129543] PCI: MMCONFIG for domain 0000 [bus 00-0f] at [mem 0xfc000000-0xfcffffff] (base 0xfc000000)
+Oct 22 17:47:36 bad kernel: [    0.129704] PCI: MMCONFIG at [mem 0xfc000000-0xfcffffff] reserved in ACPI motherboard resources
+Oct 22 17:47:36 bad kernel: [    0.129710] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Oct 22 17:47:36 bad kernel: [    0.129837] ACPI: Enabled 3 GPEs in block 00 to 0F
+Oct 22 17:47:36 bad kernel: [    0.136003] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-7f])
+Oct 22 17:47:36 bad kernel: [    0.136011] acpi PNP0A08:00: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI]
+Oct 22 17:47:36 bad kernel: [    0.136014] acpi PNP0A08:00: _OSC failed (AE_NOT_FOUND); disabling ASPM
+Oct 22 17:47:36 bad kernel: [    0.136020] acpi PNP0A08:00: [Firmware Info]: MMCONFIG for domain 0000 [bus 00-0f] only partially covers this bridge
+Oct 22 17:47:36 bad kernel: [    0.136031] acpi PNP0A08:00: ignoring host bridge window [mem 0x000d0000-0x000dffff window] (conflicts with Reserved [mem 0x000dc000-0x000fffff])
+Oct 22 17:47:36 bad kernel: [    0.136177] PCI host bridge to bus 0000:00
+Oct 22 17:47:36 bad kernel: [    0.136179] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+Oct 22 17:47:36 bad kernel: [    0.136180] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+Oct 22 17:47:36 bad kernel: [    0.136198] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+Oct 22 17:47:36 bad kernel: [    0.136199] pci_bus 0000:00: root bus resource [mem 0x000c0000-0x000cffff window]
+Oct 22 17:47:36 bad kernel: [    0.136200] pci_bus 0000:00: root bus resource [mem 0xb0000000-0xfebfffff window]
+Oct 22 17:47:36 bad kernel: [    0.136202] pci_bus 0000:00: root bus resource [bus 00-7f]
+Oct 22 17:47:36 bad kernel: [    0.138385] pci 0000:00:1f.0: quirk: [io  0x4000-0x407f] claimed by ICH6 ACPI/GPIO/TCO
+Oct 22 17:47:36 bad kernel: [    0.138516] pci 0000:00:1f.1: legacy IDE quirk: reg 0x10: [io  0x01f0-0x01f7]
+Oct 22 17:47:36 bad kernel: [    0.138517] pci 0000:00:1f.1: legacy IDE quirk: reg 0x14: [io  0x03f6]
+Oct 22 17:47:36 bad kernel: [    0.138518] pci 0000:00:1f.1: legacy IDE quirk: reg 0x18: [io  0x0170-0x0177]
+Oct 22 17:47:36 bad kernel: [    0.138519] pci 0000:00:1f.1: legacy IDE quirk: reg 0x1c: [io  0x0376]
+Oct 22 17:47:36 bad kernel: [    0.144840] pci 0000:00:01.0: PCI bridge to [bus 01] (subtractive decode)
+Oct 22 17:47:36 bad kernel: [    0.144866] pci_bus 0000:02: extended config space not accessible
+Oct 22 17:47:36 bad kernel: [    0.144903] pci 0000:00:0a.0: PCI bridge to [bus 02]
+Oct 22 17:47:36 bad kernel: [    0.144926] pci_bus 0000:03: extended config space not accessible
+Oct 22 17:47:36 bad kernel: [    0.145002] pci 0000:00:1e.0: PCI bridge to [bus 03] (subtractive decode)
+Oct 22 17:47:36 bad kernel: [    0.145075] ACPI: PCI Interrupt Link [LNKA] (IRQs) *0, disabled.
+Oct 22 17:47:36 bad kernel: [    0.146756] ACPI: EC: interrupt unblocked
+Oct 22 17:47:36 bad kernel: [    0.146761] ACPI: EC: event unblocked
+Oct 22 17:47:36 bad kernel: [    0.146775] ACPI: \_SB_.PCI0.PX40.EC__: GPE=0xa, EC_CMD/EC_SC=0x66, EC_DATA=0x62
+Oct 22 17:47:36 bad kernel: [    0.146777] ACPI: \_SB_.PCI0.PX40.EC__: Used as boot DSDT EC to handle transactions and events
+Oct 22 17:47:36 bad kernel: [    0.146884] pci 0000:01:00.0: vgaarb: setting as boot VGA device
+Oct 22 17:47:36 bad kernel: [    0.146884] pci 0000:01:00.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+Oct 22 17:47:36 bad kernel: [    0.146884] pci 0000:01:00.0: vgaarb: bridge control possible
+Oct 22 17:47:36 bad kernel: [    0.146884] vgaarb: loaded
+Oct 22 17:47:36 bad kernel: [    0.146884] pps_core: LinuxPPS API ver. 1 registered
+Oct 22 17:47:36 bad kernel: [    0.146884] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+Oct 22 17:47:36 bad kernel: [    0.146884] PTP clock support registered
+Oct 22 17:47:36 bad kernel: [    0.146884] EDAC MC: Ver: 3.0.0
+Oct 22 17:47:36 bad kernel: [    0.146884] PCI: Using ACPI for IRQ routing
+Oct 22 17:47:36 bad kernel: [    0.146884] hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0, 0, 0, 0, 0, 0
+Oct 22 17:47:36 bad kernel: [    0.146884] hpet0: 8 comparators, 64-bit 16.000000 MHz counter
+Oct 22 17:47:36 bad kernel: [    0.150879] clocksource: Switched to clocksource kvm-clock
+Oct 22 17:47:36 bad kernel: [    0.157486] VFS: Disk quotas dquot_6.6.0
+Oct 22 17:47:36 bad kernel: [    0.157500] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Oct 22 17:47:36 bad kernel: [    0.157659] AppArmor: AppArmor Filesystem Enabled
+Oct 22 17:47:36 bad kernel: [    0.157715] pnp: PnP ACPI init
+Oct 22 17:47:36 bad kernel: [    0.157958] system 00:03: [mem 0xff000000-0xffffffff] could not be reserved
+Oct 22 17:47:36 bad kernel: [    0.157986] system 00:04: [io  0x04d0-0x04d1] has been reserved
+Oct 22 17:47:36 bad kernel: [    0.157988] system 00:04: [mem 0xfc000000-0xfcffffff] has been reserved
+Oct 22 17:47:36 bad kernel: [    0.181938] pnp: PnP ACPI: found 5 devices
+Oct 22 17:47:36 bad kernel: [    0.190232] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+Oct 22 17:47:36 bad kernel: [    0.190245] pci 0000:00:01.0: PCI bridge to [bus 01]
+Oct 22 17:47:36 bad kernel: [    0.190249] pci 0000:00:01.0:   bridge window [io  0x6000-0x7fff]
+Oct 22 17:47:36 bad kernel: [    0.190253] pci 0000:00:01.0:   bridge window [mem 0xe2000000-0xedffffff]
+Oct 22 17:47:36 bad kernel: [    0.190256] pci 0000:00:01.0:   bridge window [mem 0xb0000000-0xdfffffff 64bit pref]
+Oct 22 17:47:36 bad kernel: [    0.190260] pci 0000:00:0a.0: PCI bridge to [bus 02]
+Oct 22 17:47:36 bad kernel: [    0.190262] pci 0000:00:0a.0:   bridge window [io  0x9000-0xafff]
+Oct 22 17:47:36 bad kernel: [    0.190265] pci 0000:00:0a.0:   bridge window [mem 0xee100000-0xef0fffff]
+Oct 22 17:47:36 bad kernel: [    0.190268] pci 0000:00:0a.0:   bridge window [mem 0xe0000000-0xe0ffffff pref]
+Oct 22 17:47:36 bad kernel: [    0.190272] pci 0000:00:1e.0: PCI bridge to [bus 03]
+Oct 22 17:47:36 bad kernel: [    0.190274] pci 0000:00:1e.0:   bridge window [io  0xc000-0xdfff]
+Oct 22 17:47:36 bad kernel: [    0.190277] pci 0000:00:1e.0:   bridge window [mem 0xef200000-0xf01fffff]
+Oct 22 17:47:36 bad kernel: [    0.190280] pci 0000:00:1e.0:   bridge window [mem 0xe1000000-0xe1ffffff 64bit pref]
+Oct 22 17:47:36 bad kernel: [    0.190368] NET: Registered protocol family 2
+Oct 22 17:47:36 bad kernel: [    0.190538] tcp_listen_portaddr_hash hash table entries: 1024 (order: 2, 16384 bytes)
+Oct 22 17:47:36 bad kernel: [    0.190549] TCP established hash table entries: 16384 (order: 5, 131072 bytes)
+Oct 22 17:47:36 bad kernel: [    0.190953] TCP bind hash table entries: 16384 (order: 6, 262144 bytes)
+Oct 22 17:47:36 bad kernel: [    0.191034] TCP: Hash tables configured (established 16384 bind 16384)
+Oct 22 17:47:36 bad kernel: [    0.191112] UDP hash table entries: 1024 (order: 3, 32768 bytes)
+Oct 22 17:47:36 bad kernel: [    0.191121] UDP-Lite hash table entries: 1024 (order: 3, 32768 bytes)
+Oct 22 17:47:36 bad kernel: [    0.191215] NET: Registered protocol family 1
+Oct 22 17:47:36 bad kernel: [    0.191221] NET: Registered protocol family 44
+Oct 22 17:47:36 bad kernel: [    0.193945] pci 0000:01:00.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+Oct 22 17:47:36 bad kernel: [    0.193997] Unpacking initramfs...
+Oct 22 17:47:36 bad kernel: [    0.510927] Freeing initrd memory: 25240K
+Oct 22 17:47:36 bad kernel: [    0.510962] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x22983777dd9, max_idle_ns: 440795300422 ns
+Oct 22 17:47:36 bad kernel: [    0.511579] Initialise system trusted keyrings
+Oct 22 17:47:36 bad kernel: [    0.511590] Key type blacklist registered
+Oct 22 17:47:36 bad kernel: [    0.511675] workingset: timestamp_bits=40 max_order=19 bucket_order=0
+Oct 22 17:47:36 bad kernel: [    0.512425] zbud: loaded
+Oct 22 17:47:36 bad kernel: [    0.602751] Key type asymmetric registered
+Oct 22 17:47:36 bad kernel: [    0.602754] Asymmetric key parser 'x509' registered
+Oct 22 17:47:36 bad kernel: [    0.602765] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 247)
+Oct 22 17:47:36 bad kernel: [    0.602887] io scheduler noop registered
+Oct 22 17:47:36 bad kernel: [    0.602888] io scheduler deadline registered
+Oct 22 17:47:36 bad kernel: [    0.602935] io scheduler cfq registered (default)
+Oct 22 17:47:36 bad kernel: [    0.602938] io scheduler mq-deadline registered
+Oct 22 17:47:36 bad kernel: [    0.603170] shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+Oct 22 17:47:36 bad kernel: [    0.603334] Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+Oct 22 17:47:36 bad kernel: [    0.603887] Linux agpgart interface v0.103
+Oct 22 17:47:36 bad kernel: [    0.604065] AMD IOMMUv2 driver by Joerg Roedel <jroedel@suse.de>
+Oct 22 17:47:36 bad kernel: [    0.604066] AMD IOMMUv2 functionality not available on this system
+Oct 22 17:47:36 bad kernel: [    0.604236] i8042: PNP: PS/2 Controller [PNP0303:KBC,PNP0f03:PS2M] at 0x60,0x64 irq 1,12
+Oct 22 17:47:36 bad kernel: [    0.604488] serio: i8042 KBD port at 0x60,0x64 irq 1
+Oct 22 17:47:36 bad kernel: [    0.604492] serio: i8042 AUX port at 0x60,0x64 irq 12
+Oct 22 17:47:36 bad kernel: [    0.604592] mousedev: PS/2 mouse device common for all mice
+Oct 22 17:47:36 bad kernel: [    0.604668] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input0
+Oct 22 17:47:36 bad kernel: [    0.605062] rtc_cmos 00:02: registered as rtc0
+Oct 22 17:47:36 bad kernel: [    0.605070] rtc_cmos 00:02: alarms up to one day, y3k, 242 bytes nvram, hpet irqs
+Oct 22 17:47:36 bad kernel: [    0.605112] ledtrig-cpu: registered to indicate activity on CPUs
+Oct 22 17:47:36 bad kernel: [    0.605286] NET: Registered protocol family 10
+Oct 22 17:47:36 bad kernel: [    0.610380] Segment Routing with IPv6
+Oct 22 17:47:36 bad kernel: [    0.610412] mip6: Mobile IPv6
+Oct 22 17:47:36 bad kernel: [    0.610414] NET: Registered protocol family 17
+Oct 22 17:47:36 bad kernel: [    0.610448] mpls_gso: MPLS GSO support
+Oct 22 17:47:36 bad kernel: [    0.610602] mce: Using 0 MCE banks
+Oct 22 17:47:36 bad kernel: [    0.610616] sched_clock: Marking stable (613409889, -2838000)->(618702904, -8131015)
+Oct 22 17:47:36 bad kernel: [    0.611012] registered taskstats version 1
+Oct 22 17:47:36 bad kernel: [    0.611012] Loading compiled-in X.509 certificates
+Oct 22 17:47:36 bad kernel: [    0.631712] Loaded X.509 cert 'Debian Secure Boot CA: 6ccece7e4c6c0d1f6149f3dd27dfcc5cbb419ea1'
+Oct 22 17:47:36 bad kernel: [    0.631722] Loaded X.509 cert 'Debian Secure Boot Signer 2020: 00b55eb3b9'
+Oct 22 17:47:36 bad kernel: [    0.631737] zswap: loaded using pool lzo/zbud
+Oct 22 17:47:36 bad kernel: [    0.632036] AppArmor: AppArmor sha1 policy hashing enabled
+Oct 22 17:47:36 bad kernel: [    0.632424] rtc_cmos 00:02: setting system clock to 2020-10-22 21:47:33 UTC (1603403253)
+Oct 22 17:47:36 bad kernel: [    0.633798] Freeing unused kernel image memory: 1596K
+Oct 22 17:47:36 bad kernel: [    0.649314] Write protecting the kernel read-only data: 16384k
+Oct 22 17:47:36 bad kernel: [    0.650261] Freeing unused kernel image memory: 2028K
+Oct 22 17:47:36 bad kernel: [    0.650554] Freeing unused kernel image memory: 784K
+Oct 22 17:47:36 bad kernel: [    0.655753] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+Oct 22 17:47:36 bad kernel: [    0.655753] x86/mm: Checking user space page tables
+Oct 22 17:47:36 bad kernel: [    0.660532] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+Oct 22 17:47:36 bad kernel: [    0.660536] Run /init as init process
+Oct 22 17:47:36 bad kernel: [    0.719463] virtio-pci 0000:00:05.0: virtio_pci: leaving for legacy driver
+Oct 22 17:47:36 bad kernel: [    0.720204] virtio-pci 0000:00:0e.0: virtio_pci: leaving for legacy driver
+Oct 22 17:47:36 bad kernel: [    0.731625] lpc_ich 0000:00:1f.0: RCBA is disabled by hardware/BIOS, device disabled
+Oct 22 17:47:36 bad kernel: [    0.731628] ACPI Warning: SystemIO range 0x0000000000004028-0x000000000000402F conflicts with OpRegion 0x0000000000004000-0x000000000000404E (\PMIO) (20180810/utaddress-213)
+Oct 22 17:47:36 bad kernel: [    0.731631] ACPI: If an ACPI driver is available for this device, you should use it instead of the native driver
+Oct 22 17:47:36 bad kernel: [    0.731653] lpc_ich: Resource conflict(s) found affecting gpio_ich
+Oct 22 17:47:36 bad kernel: [    0.731967] ACPI: bus type USB registered
+Oct 22 17:47:36 bad kernel: [    0.731977] usbcore: registered new interface driver usbfs
+Oct 22 17:47:36 bad kernel: [    0.731980] usbcore: registered new interface driver hub
+Oct 22 17:47:36 bad kernel: [    0.732000] usbcore: registered new device driver usb
+Oct 22 17:47:36 bad kernel: [    0.737808] i801_smbus 0000:00:1f.3: Enabling SMBus device
+Oct 22 17:47:36 bad kernel: [    0.737812] i801_smbus 0000:00:1f.3: SMBus using polling
+Oct 22 17:47:36 bad kernel: [    0.743390] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Oct 22 17:47:36 bad kernel: [    0.745539] uhci_hcd: USB Universal Host Controller Interface driver
+Oct 22 17:47:36 bad kernel: [    0.745795] uhci_hcd 0000:00:1d.0: UHCI Host Controller
+Oct 22 17:47:36 bad kernel: [    0.745800] uhci_hcd 0000:00:1d.0: new USB bus registered, assigned bus number 1
+Oct 22 17:47:36 bad kernel: [    0.745806] uhci_hcd 0000:00:1d.0: detected 2 ports
+Oct 22 17:47:36 bad kernel: [    0.746018] uhci_hcd 0000:00:1d.0: irq 18, io base 0x0000b200
+Oct 22 17:47:36 bad kernel: [    0.746077] usb usb1: New USB device found, idVendor=1d6b, idProduct=0001, bcdDevice= 4.19
+Oct 22 17:47:36 bad kernel: [    0.746078] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Oct 22 17:47:36 bad kernel: [    0.746078] usb usb1: Product: UHCI Host Controller
+Oct 22 17:47:36 bad kernel: [    0.746079] usb usb1: Manufacturer: Linux 4.19.0-12-amd64 uhci_hcd
+Oct 22 17:47:36 bad kernel: [    0.746079] usb usb1: SerialNumber: 0000:00:1d.0
+Oct 22 17:47:36 bad kernel: [    0.746134] hub 1-0:1.0: USB hub found
+Oct 22 17:47:36 bad kernel: [    0.746136] hub 1-0:1.0: 2 ports detected
+Oct 22 17:47:36 bad kernel: [    0.749039] xhci_hcd 0000:00:1d.6: xHCI Host Controller
+Oct 22 17:47:36 bad kernel: [    0.749042] xhci_hcd 0000:00:1d.6: new USB bus registered, assigned bus number 2
+Oct 22 17:47:36 bad kernel: [    0.749233] xhci_hcd 0000:00:1d.6: hcc params 0x01c15001 hci version 0x100 quirks 0x0000000000000014
+Oct 22 17:47:36 bad kernel: [    0.749348] usb usb2: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 4.19
+Oct 22 17:47:36 bad kernel: [    0.749349] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Oct 22 17:47:36 bad kernel: [    0.749350] usb usb2: Product: xHCI Host Controller
+Oct 22 17:47:36 bad kernel: [    0.749350] usb usb2: Manufacturer: Linux 4.19.0-12-amd64 xhci-hcd
+Oct 22 17:47:36 bad kernel: [    0.749350] usb usb2: SerialNumber: 0000:00:1d.6
+Oct 22 17:47:36 bad kernel: [    0.749396] hub 2-0:1.0: USB hub found
+Oct 22 17:47:36 bad kernel: [    0.749411] hub 2-0:1.0: 2 ports detected
+Oct 22 17:47:36 bad kernel: [    0.749569] xhci_hcd 0000:00:1d.6: xHCI Host Controller
+Oct 22 17:47:36 bad kernel: [    0.749570] xhci_hcd 0000:00:1d.6: new USB bus registered, assigned bus number 3
+Oct 22 17:47:36 bad kernel: [    0.749578] xhci_hcd 0000:00:1d.6: Host supports USB 3.0 SuperSpeed
+Oct 22 17:47:36 bad kernel: [    0.750902] usb usb3: We don't know the algorithms for LPM for this host, disabling LPM.
+Oct 22 17:47:36 bad kernel: [    0.750913] usb usb3: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 4.19
+Oct 22 17:47:36 bad kernel: [    0.750914] usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Oct 22 17:47:36 bad kernel: [    0.750915] usb usb3: Product: xHCI Host Controller
+Oct 22 17:47:36 bad kernel: [    0.750915] usb usb3: Manufacturer: Linux 4.19.0-12-amd64 xhci-hcd
+Oct 22 17:47:36 bad kernel: [    0.750916] usb usb3: SerialNumber: 0000:00:1d.6
+Oct 22 17:47:36 bad kernel: [    0.751010] hub 3-0:1.0: USB hub found
+Oct 22 17:47:36 bad kernel: [    0.751027] hub 3-0:1.0: 12 ports detected
+Oct 22 17:47:36 bad kernel: [    0.755656] ehci-pci: EHCI PCI platform driver
+Oct 22 17:47:36 bad kernel: [    0.756793] SCSI subsystem initialized
+Oct 22 17:47:36 bad kernel: [    0.756894] ehci-pci 0000:00:1d.7: EHCI Host Controller
+Oct 22 17:47:36 bad kernel: [    0.756898] ehci-pci 0000:00:1d.7: new USB bus registered, assigned bus number 4
+Oct 22 17:47:36 bad kernel: [    0.756984] ehci-pci 0000:00:1d.7: Enabling legacy PCI PM
+Oct 22 17:47:36 bad kernel: [    0.757003] cryptd: max_cpu_qlen set to 1000
+Oct 22 17:47:36 bad kernel: [    0.757013] ehci-pci 0000:00:1d.7: irq 19, io mem 0xef140000
+Oct 22 17:47:36 bad kernel: [    0.774707] ehci-pci 0000:00:1d.7: USB 2.0 started, EHCI 1.00
+Oct 22 17:47:36 bad kernel: [    0.774740] usb usb4: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 4.19
+Oct 22 17:47:36 bad kernel: [    0.774740] usb usb4: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Oct 22 17:47:36 bad kernel: [    0.774741] usb usb4: Product: EHCI Host Controller
+Oct 22 17:47:36 bad kernel: [    0.774742] usb usb4: Manufacturer: Linux 4.19.0-12-amd64 ehci_hcd
+Oct 22 17:47:36 bad kernel: [    0.774742] usb usb4: SerialNumber: 0000:00:1d.7
+Oct 22 17:47:36 bad kernel: [    0.774800] hub 4-0:1.0: USB hub found
+Oct 22 17:47:36 bad kernel: [    0.774804] hub 4-0:1.0: 15 ports detected
+Oct 22 17:47:36 bad kernel: [    0.776175] virtio_net virtio0 enp0s5: renamed from eth0
+Oct 22 17:47:36 bad kernel: [    0.777697] AVX2 version of gcm_enc/dec engaged.
+Oct 22 17:47:36 bad kernel: [    0.777698] AES CTR mode by8 optimization enabled
+Oct 22 17:47:36 bad kernel: [    0.782230] ahci 0000:00:1f.2: SSS flag set, parallel bus scan disabled
+Oct 22 17:47:36 bad kernel: [    0.782279] ahci 0000:00:1f.2: AHCI 0001.0100 32 slots 6 ports 3 Gbps 0x3f impl SATA mode
+Oct 22 17:47:36 bad kernel: [    0.782280] ahci 0000:00:1f.2: flags: 64bit ncq stag pm led only slum part 
+Oct 22 17:47:36 bad kernel: [    0.782896] scsi host0: ata_piix
+Oct 22 17:47:36 bad kernel: [    0.783094] scsi host2: ata_piix
+Oct 22 17:47:36 bad kernel: [    0.783120] ata1: PATA max UDMA/100 cmd 0x1f0 ctl 0x3f6 bmdma 0xe000 irq 14
+Oct 22 17:47:36 bad kernel: [    0.783121] ata2: PATA max UDMA/100 cmd 0x170 ctl 0x376 bmdma 0xe008 irq 15
+Oct 22 17:47:36 bad kernel: [    0.783355] scsi host1: ahci
+Oct 22 17:47:36 bad kernel: [    0.783414] scsi host3: ahci
+Oct 22 17:47:36 bad kernel: [    0.783465] scsi host4: ahci
+Oct 22 17:47:36 bad kernel: [    0.783519] scsi host5: ahci
+Oct 22 17:47:36 bad kernel: [    0.783570] scsi host6: ahci
+Oct 22 17:47:36 bad kernel: [    0.783621] scsi host7: ahci
+Oct 22 17:47:36 bad kernel: [    0.783655] ata3: SATA max UDMA/133 abar m8192@0xf0200000 port 0xf0200100 irq 28
+Oct 22 17:47:36 bad kernel: [    0.783655] ata4: SATA max UDMA/133 abar m8192@0xf0200000 port 0xf0200180 irq 28
+Oct 22 17:47:36 bad kernel: [    0.783656] ata5: SATA max UDMA/133 abar m8192@0xf0200000 port 0xf0200200 irq 28
+Oct 22 17:47:36 bad kernel: [    0.783656] ata6: SATA max UDMA/133 abar m8192@0xf0200000 port 0xf0200280 irq 28
+Oct 22 17:47:36 bad kernel: [    0.783658] ata7: SATA max UDMA/133 abar m8192@0xf0200000 port 0xf0200300 irq 28
+Oct 22 17:47:36 bad kernel: [    0.783658] ata8: SATA max UDMA/133 abar m8192@0xf0200000 port 0xf0200380 irq 28
+Oct 22 17:47:36 bad kernel: [    0.805443] hub 1-0:1.0: USB hub found
+Oct 22 17:47:36 bad kernel: [    0.805451] hub 1-0:1.0: 2 ports detected
+Oct 22 17:47:36 bad kernel: [    1.085524] usb 3-1: new SuperSpeed Gen 1 USB device number 2 using xhci_hcd
+Oct 22 17:47:36 bad kernel: [    1.097795] ata3: SATA link up 1.5 Gbps (SStatus 113 SControl 300)
+Oct 22 17:47:36 bad kernel: [    1.097859] ata3.00: ATA-8: Debian GNU Linux-0 SSD, F.VF5Y6G, max UDMA/100
+Oct 22 17:47:36 bad kernel: [    1.097860] ata3.00: 134217728 sectors, multi 0: LBA48 NCQ (depth 32)
+Oct 22 17:47:36 bad kernel: [    1.098001] ata3.00: configured for UDMA/100
+Oct 22 17:47:36 bad kernel: [    1.098156] scsi 1:0:0:0: Direct-Access     ATA      Debian GNU Linux 5Y6G PQ: 0 ANSI: 5
+Oct 22 17:47:36 bad kernel: [    1.105508] usb 3-1: LPM exit latency is zeroed, disabling LPM.
+Oct 22 17:47:36 bad kernel: [    1.105697] usb 3-1: New USB device found, idVendor=203a, idProduct=fff9, bcdDevice= 1.00
+Oct 22 17:47:36 bad kernel: [    1.105698] usb 3-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Oct 22 17:47:36 bad kernel: [    1.105699] usb 3-1: Product: FaceTime HD Camera (Built-in)
+Oct 22 17:47:36 bad kernel: [    1.105699] usb 3-1: Manufacturer: Parallels
+Oct 22 17:47:36 bad kernel: [    1.105700] usb 3-1: SerialNumber: 0x8020000005ac8514
+Oct 22 17:47:36 bad kernel: [    1.140880] usb 1-1: new full-speed USB device number 2 using uhci_hcd
+Oct 22 17:47:36 bad kernel: [    1.299087] usb 1-1: New USB device found, idVendor=203a, idProduct=fffc, bcdDevice= 1.00
+Oct 22 17:47:36 bad kernel: [    1.299088] usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Oct 22 17:47:36 bad kernel: [    1.299089] usb 1-1: Product: Virtual Mouse
+Oct 22 17:47:36 bad kernel: [    1.299089] usb 1-1: Manufacturer: Parallels
+Oct 22 17:47:36 bad kernel: [    1.299090] usb 1-1: SerialNumber: PW3.0
+Oct 22 17:47:36 bad kernel: [    1.310934] hidraw: raw HID events driver (C) Jiri Kosina
+Oct 22 17:47:36 bad kernel: [    1.321468] usbcore: registered new interface driver usbhid
+Oct 22 17:47:36 bad kernel: [    1.321468] usbhid: USB HID core driver
+Oct 22 17:47:36 bad kernel: [    1.322360] input: Parallels Virtual Mouse as /devices/pci0000:00/0000:00:1d.0/usb1/1-1/1-1:1.0/0003:203A:FFFC.0001/input/input3
+Oct 22 17:47:36 bad kernel: [    1.322395] hid-generic 0003:203A:FFFC.0001: input,hidraw0: USB HID v1.10 Mouse [Parallels Virtual Mouse] on usb-0000:00:1d.0-1/input0
+Oct 22 17:47:36 bad kernel: [    1.322485] input: Parallels Virtual Mouse as /devices/pci0000:00/0000:00:1d.0/usb1/1-1/1-1:1.1/0003:203A:FFFC.0002/input/input4
+Oct 22 17:47:36 bad kernel: [    1.322519] hid-generic 0003:203A:FFFC.0002: input,hidraw1: USB HID v1.10 Mouse [Parallels Virtual Mouse] on usb-0000:00:1d.0-1/input1
+Oct 22 17:47:36 bad kernel: [    1.411320] ata4: SATA link up 1.5 Gbps (SStatus 113 SControl 300)
+Oct 22 17:47:36 bad kernel: [    1.411555] ata4.00: ATAPI: Virtual DVD-ROM [1], FWR1, max UDMA/25
+Oct 22 17:47:36 bad kernel: [    1.411830] ata4.00: configured for UDMA/25
+Oct 22 17:47:36 bad kernel: [    1.412443] scsi 3:0:0:0: CD-ROM                     Virtual DVD-ROM  R103 PQ: 0 ANSI: 5
+Oct 22 17:47:36 bad kernel: [    1.597735] input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input2
+Oct 22 17:47:36 bad kernel: [    1.751106] ata5: SATA link down (SStatus 0 SControl 300)
+Oct 22 17:47:36 bad kernel: [    2.062504] ata6: SATA link down (SStatus 0 SControl 300)
+Oct 22 17:47:36 bad kernel: [    2.374622] ata7: SATA link down (SStatus 0 SControl 300)
+Oct 22 17:47:36 bad kernel: [    2.684895] ata8: SATA link down (SStatus 0 SControl 300)
+Oct 22 17:47:36 bad kernel: [    2.690997] sd 1:0:0:0: [sda] 134217728 512-byte logical blocks: (68.7 GB/64.0 GiB)
+Oct 22 17:47:36 bad kernel: [    2.690998] sd 1:0:0:0: [sda] 4096-byte physical blocks
+Oct 22 17:47:36 bad kernel: [    2.691000] sd 1:0:0:0: [sda] Write Protect is off
+Oct 22 17:47:36 bad kernel: [    2.691004] sd 1:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Oct 22 17:47:36 bad kernel: [    2.691504]  sda: sda1 sda2 < sda5 >
+Oct 22 17:47:36 bad kernel: [    2.691781] sd 1:0:0:0: [sda] Attached SCSI disk
+Oct 22 17:47:36 bad kernel: [    2.721237] sr 3:0:0:0: [sr0] scsi3-mmc drive: 44x/44x cd/rw xa/form2 cdda tray
+Oct 22 17:47:36 bad kernel: [    2.721239] cdrom: Uniform CD-ROM driver Revision: 3.20
+Oct 22 17:47:36 bad kernel: [    3.131765] EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: (null)
+Oct 22 17:47:36 bad kernel: [    3.298384] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Oct 22 17:47:36 bad kernel: [    3.412728] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input5
+Oct 22 17:47:36 bad kernel: [    3.412877] ACPI: Power Button [PWRF]
+Oct 22 17:47:36 bad kernel: [    3.413046] input: Sleep Button as /devices/LNXSYSTM:00/LNXSLPBN:00/input/input6
+Oct 22 17:47:36 bad kernel: [    3.413050] ACPI: Sleep Button [SLPF]
+Oct 22 17:47:36 bad kernel: [    3.437827] ACPI: AC Adapter [ADP0] (on-line)
+Oct 22 17:47:36 bad kernel: [    3.483521] media: Linux media interface: v0.10
+Oct 22 17:47:36 bad kernel: [    3.502965] sd 1:0:0:0: Attached scsi generic sg0 type 0
+Oct 22 17:47:36 bad kernel: [    3.503044] sr 3:0:0:0: Attached scsi generic sg1 type 5
+Oct 22 17:47:36 bad kernel: [    3.520069] [drm] pci: virtio-vga detected at 0000:01:00.0
+Oct 22 17:47:36 bad kernel: [    3.522092] [drm] virgl 3d acceleration not supported by host
+Oct 22 17:47:36 bad kernel: [    3.523119] [TTM] Zone  kernel: Available graphics memory: 1018692 kiB
+Oct 22 17:47:36 bad kernel: [    3.523120] [TTM] Initializing pool allocator
+Oct 22 17:47:36 bad kernel: [    3.523123] [TTM] Initializing DMA pool allocator
+Oct 22 17:47:36 bad kernel: [    3.523134] [drm] number of scanouts: 1
+Oct 22 17:47:36 bad kernel: [    3.523135] [drm] number of cap sets: 0
+Oct 22 17:47:36 bad kernel: [    3.524627] input: PC Speaker as /devices/platform/pcspkr/input/input7
+Oct 22 17:47:36 bad kernel: [    3.527223] Console: switching to colour frame buffer device 128x48
+Oct 22 17:47:36 bad kernel: [    3.528107] virtio_gpu virtio2: fb0: virtiodrmfb frame buffer device
+Oct 22 17:47:36 bad kernel: [    3.540974] [drm] Initialized virtio_gpu 0.0.1 0 for virtio2 on minor 0
+Oct 22 17:47:36 bad kernel: [    3.541122] videodev: Linux video capture interface: v2.00
+Oct 22 17:47:36 bad kernel: [    3.558276] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 10737418240 ms ovfl timer
+Oct 22 17:47:36 bad kernel: [    3.558277] RAPL PMU: hw unit of domain pp0-core 2^-0 Joules
+Oct 22 17:47:36 bad kernel: [    3.558277] RAPL PMU: hw unit of domain package 2^-0 Joules
+Oct 22 17:47:36 bad kernel: [    3.558277] RAPL PMU: hw unit of domain dram 2^-0 Joules
+Oct 22 17:47:36 bad kernel: [    3.558277] RAPL PMU: hw unit of domain pp1-gpu 2^-0 Joules
+Oct 22 17:47:36 bad kernel: [    3.558278] RAPL PMU: hw unit of domain psys 2^-0 Joules
+Oct 22 17:47:36 bad kernel: [    3.593285] uvcvideo: Found UVC 1.00 device FaceTime HD Camera (Built-in) (203a:fff9)
+Oct 22 17:47:36 bad kernel: [    3.596509] uvcvideo 3-1:1.0: Entity type for entity Processing 4 was not initialized!
+Oct 22 17:47:36 bad kernel: [    3.596510] uvcvideo 3-1:1.0: Entity type for entity Selector 3 was not initialized!
+Oct 22 17:47:36 bad kernel: [    3.596511] uvcvideo 3-1:1.0: Entity type for entity Camera Terminal was not initialized!
+Oct 22 17:47:36 bad kernel: [    3.596637] usbcore: registered new interface driver uvcvideo
+Oct 22 17:47:36 bad kernel: [    3.596638] USB Video Class driver (1.1.1)
+Oct 22 17:47:36 bad kernel: [    3.627670] snd_intel8x0 0000:00:1f.4: enable Parallels VM optimization
+Oct 22 17:47:36 bad kernel: [    3.712978] audit: type=1400 audit(1603403256.576:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe" pid=303 comm="apparmor_parser"
+Oct 22 17:47:36 bad kernel: [    3.712982] audit: type=1400 audit(1603403256.576:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe//kmod" pid=303 comm="apparmor_parser"
+Oct 22 17:47:36 bad kernel: [    3.738210] audit: type=1400 audit(1603403256.604:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/man" pid=304 comm="apparmor_parser"
+Oct 22 17:47:36 bad kernel: [    3.738688] audit: type=1400 audit(1603403256.604:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_filter" pid=304 comm="apparmor_parser"
+Oct 22 17:47:36 bad kernel: [    3.739807] audit: type=1400 audit(1603403256.604:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_groff" pid=304 comm="apparmor_parser"
+Oct 22 17:47:36 bad kernel: [    3.756043] Adding 2095100k swap on /dev/sda5.  Priority:-2 extents:1 across:2095100k SSFS
+Oct 22 17:47:36 bad kernel: [    3.893473] battery: ACPI: Battery Slot [BAT0] (battery present)
+Oct 22 17:47:36 bad kernel: [    4.019531] snd_intel8x0 0000:00:1f.4: intel8x0_measure_ac97_clock: measured 58851 usecs (2899 samples)
+Oct 22 17:47:36 bad kernel: [    4.019532] snd_intel8x0 0000:00:1f.4: clocking to 46773

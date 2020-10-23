@@ -1,0 +1,147 @@
+Oct 22 17:47:36 bad systemd-sysusers[253]: Creating group systemd-coredump with gid 999.
+Oct 22 17:47:36 bad systemd-sysusers[253]: Creating user systemd-coredump (systemd Core Dumper) with uid 999 and gid 999.
+Oct 22 17:47:36 bad systemd[1]: Starting Flush Journal to Persistent Storage...
+Oct 22 17:47:36 bad systemd[1]: Started Set console font and keymap.
+Oct 22 17:47:36 bad systemd[1]: Started Flush Journal to Persistent Storage.
+Oct 22 17:47:36 bad systemd[1]: Starting Create Volatile Files and Directories...
+Oct 22 17:47:36 bad systemd-udevd[265]: Using default interface naming scheme 'v240'.
+Oct 22 17:47:36 bad systemd-udevd[265]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct 22 17:47:36 bad apparmor.systemd[283]: Restarting AppArmor
+Oct 22 17:47:36 bad apparmor.systemd[283]: Reloading AppArmor profiles
+Oct 22 17:47:36 bad systemd[1]: Started Create Volatile Files and Directories.
+Oct 22 17:47:36 bad systemd[1]: Starting Network Time Synchronization...
+Oct 22 17:47:36 bad systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Oct 22 17:47:36 bad systemd-udevd[277]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct 22 17:47:36 bad systemd[1]: Started Update UTMP about System Boot/Shutdown.
+Oct 22 17:47:36 bad systemd[1]: Found device Debian_GNU_Linux-0_SSD 5.
+Oct 22 17:47:36 bad systemd[1]: Started Network Time Synchronization.
+Oct 22 17:47:36 bad systemd[1]: Found device Virtio network device.
+Oct 22 17:47:36 bad systemd[1]: Started Load AppArmor profiles.
+Oct 22 17:47:36 bad systemd[1]: Starting Raise network interfaces...
+Oct 22 17:47:36 bad systemd[1]: Started ifup for enp0s5.
+Oct 22 17:47:36 bad systemd[1]: Reached target System Time Synchronized.
+Oct 22 17:47:36 bad systemd[1]: Activating swap /dev/disk/by-uuid/552a77cf-9d92-4388-bf1a-6a6cd137ac50...
+Oct 22 17:47:36 bad systemd[1]: Activated swap /dev/disk/by-uuid/552a77cf-9d92-4388-bf1a-6a6cd137ac50.
+Oct 22 17:47:36 bad systemd[1]: Reached target Swap.
+Oct 22 17:47:36 bad systemd[1]: Reached target System Initialization.
+Oct 22 17:47:36 bad systemd[1]: Started Trigger anacron every hour.
+Oct 22 17:47:36 bad systemd[1]: Listening on D-Bus System Message Bus Socket.
+Oct 22 17:47:36 bad systemd[1]: Reached target Sockets.
+Oct 22 17:47:36 bad systemd[1]: Started Daily apt download activities.
+Oct 22 17:47:36 bad systemd[1]: Started Daily apt upgrade and clean activities.
+Oct 22 17:47:36 bad systemd[1]: Started Daily Cleanup of Temporary Directories.
+Oct 22 17:47:36 bad systemd[1]: Reached target Basic System.
+Oct 22 17:47:36 bad dhclient[407]: Internet Systems Consortium DHCP Client 4.4.1
+Oct 22 17:47:36 bad sh[353]: Internet Systems Consortium DHCP Client 4.4.1
+Oct 22 17:47:36 bad sh[353]: Copyright 2004-2018 Internet Systems Consortium.
+Oct 22 17:47:36 bad sh[353]: All rights reserved.
+Oct 22 17:47:36 bad sh[353]: For info, please visit https://www.isc.org/software/dhcp/
+Oct 22 17:47:36 bad dhclient[407]: Copyright 2004-2018 Internet Systems Consortium.
+Oct 22 17:47:36 bad dhclient[407]: All rights reserved.
+Oct 22 17:47:36 bad dhclient[407]: For info, please visit https://www.isc.org/software/dhcp/
+Oct 22 17:47:36 bad dhclient[407]: 
+Oct 22 17:47:36 bad systemd[1]: Started Run anacron jobs.
+Oct 22 17:47:36 bad systemd[1]: Started Regular background program processing daemon.
+Oct 22 17:47:36 bad systemd[1]: Started D-Bus System Message Bus.
+Oct 22 17:47:36 bad systemd[1]: Starting Login Service...
+Oct 22 17:47:36 bad systemd[1]: Started Daily man-db regeneration.
+Oct 22 17:47:36 bad systemd[1]: Starting System Logging Service...
+Oct 22 17:47:36 bad systemd[1]: Starting WPA supplicant...
+Oct 22 17:47:36 bad systemd[1]: Started Daily rotation of log files.
+Oct 22 17:47:36 bad systemd[1]: Reached target Timers.
+Oct 22 17:47:36 bad systemd[1]: Condition check resulted in getty on tty2-tty6 if dbus and logind are not available being skipped.
+Oct 22 17:47:36 bad dhclient[407]: Listening on LPF/enp0s5/00:1c:42:16:64:1f
+Oct 22 17:47:36 bad dhclient[407]: Sending on   LPF/enp0s5/00:1c:42:16:64:1f
+Oct 22 17:47:36 bad sh[353]: Listening on LPF/enp0s5/00:1c:42:16:64:1f
+Oct 22 17:47:36 bad sh[353]: Sending on   LPF/enp0s5/00:1c:42:16:64:1f
+Oct 22 17:47:36 bad sh[353]: Sending on   Socket/fallback
+Oct 22 17:47:36 bad sh[353]: Created duid "\000\001\000\001'$\272x\000\034B\026d\037".
+Oct 22 17:47:36 bad sh[353]: DHCPDISCOVER on enp0s5 to 255.255.255.255 port 67 interval 6
+Oct 22 17:47:36 bad dhclient[407]: Sending on   Socket/fallback
+Oct 22 17:47:36 bad sh[353]: DHCPOFFER of 10.211.55.8 from 10.211.55.1
+Oct 22 17:47:36 bad sh[353]: DHCPREQUEST for 10.211.55.8 on enp0s5 to 255.255.255.255 port 67
+Oct 22 17:47:36 bad dhclient[407]: Created duid "\000\001\000\001'$\272x\000\034B\026d\037".
+Oct 22 17:47:36 bad systemd[1]: Started Raise network interfaces.
+Oct 22 17:47:36 bad dhclient[407]: DHCPDISCOVER on enp0s5 to 255.255.255.255 port 67 interval 6
+Oct 22 17:47:36 bad dhclient[407]: DHCPOFFER of 10.211.55.8 from 10.211.55.1
+Oct 22 17:47:36 bad dhclient[407]: DHCPREQUEST for 10.211.55.8 on enp0s5 to 255.255.255.255 port 67
+Oct 22 17:47:36 bad dhclient[407]: DHCPACK of 10.211.55.8 from 10.211.55.1
+Oct 22 17:47:36 bad sh[353]: DHCPACK of 10.211.55.8 from 10.211.55.1
+Oct 22 17:47:36 bad sh[353]: suspect value in host_name option - discarded
+Oct 22 17:47:36 bad dhclient[407]: suspect value in host_name option - discarded
+Oct 22 17:47:36 bad systemd[1]: Started System Logging Service.
+Oct 22 17:47:36 bad wpa_supplicant[439]: Successfully initialized wpa_supplicant
+Oct 22 17:47:36 bad systemd[1]: Started WPA supplicant.
+Oct 22 17:47:36 bad systemd[1]: Reached target Network.
+Oct 22 17:47:36 bad systemd[1]: Starting Permit User Sessions...
+Oct 22 17:47:36 bad systemd[1]: Started Permit User Sessions.
+Oct 22 17:47:36 bad systemd[1]: Started Getty on tty1.
+Oct 22 17:47:36 bad systemd[1]: Reached target Login Prompts.
+Oct 22 17:47:36 bad systemd[1]: Started Login Service.
+Oct 22 17:47:36 bad systemd[1]: Reached target Multi-User System.
+Oct 22 17:47:36 bad systemd[1]: Reached target Graphical Interface.
+Oct 22 17:47:36 bad systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Oct 22 17:47:36 bad systemd[1]: systemd-update-utmp-runlevel.service: Succeeded.
+Oct 22 17:47:36 bad systemd[1]: Started Update UTMP about System Runlevel Changes.
+Oct 22 17:47:36 bad systemd[1]: Startup finished in 3.196s (kernel) + 658ms (userspace) = 3.854s.
+Oct 22 17:47:36 bad dhclient[407]: bound to 10.211.55.8 -- renewal in 716 seconds.
+Oct 22 17:47:36 bad sh[353]: bound to 10.211.55.8 -- renewal in 716 seconds.
+Oct 22 17:47:36 bad sh[353]: enp0s5=enp0s5
+Oct 22 17:47:36 bad systemd[1]: Reached target Sound Card.
+Oct 22 17:47:42 bad systemd[1]: Created slice User Slice of UID 0.
+Oct 22 17:47:42 bad systemd[1]: Starting User Runtime Directory /run/user/0...
+Oct 22 17:47:42 bad systemd[1]: Started User Runtime Directory /run/user/0.
+Oct 22 17:47:42 bad systemd[1]: Starting User Manager for UID 0...
+Oct 22 17:47:42 bad systemd[494]: Reached target Sockets.
+Oct 22 17:47:42 bad systemd[494]: Reached target Timers.
+Oct 22 17:47:42 bad systemd[494]: Reached target Paths.
+Oct 22 17:47:42 bad systemd[494]: Reached target Basic System.
+Oct 22 17:47:42 bad systemd[494]: Reached target Default.
+Oct 22 17:47:42 bad systemd[494]: Startup finished in 13ms.
+Oct 22 17:47:42 bad systemd[1]: Started User Manager for UID 0.
+Oct 22 17:47:42 bad systemd[1]: Started Session 1 of user root.
+Oct 22 17:48:13 bad systemd[1]: getty@tty1.service: Succeeded.
+Oct 22 17:48:13 bad systemd[1]: session-1.scope: Succeeded.
+Oct 22 17:48:13 bad systemd[1]: getty@tty1.service: Service has no hold-off time (RestartSec=0), scheduling restart.
+Oct 22 17:48:13 bad systemd[1]: getty@tty1.service: Scheduled restart job, restart counter is at 1.
+Oct 22 17:48:13 bad systemd[1]: Stopped Getty on tty1.
+Oct 22 17:48:13 bad systemd[1]: Started Getty on tty1.
+Oct 22 17:48:17 bad systemd[1]: Created slice User Slice of UID 1000.
+Oct 22 17:48:17 bad systemd[1]: Starting User Runtime Directory /run/user/1000...
+Oct 22 17:48:17 bad systemd[1]: Started User Runtime Directory /run/user/1000.
+Oct 22 17:48:17 bad systemd[1]: Starting User Manager for UID 1000...
+Oct 22 17:48:18 bad systemd[532]: Reached target Sockets.
+Oct 22 17:48:18 bad systemd[532]: Reached target Paths.
+Oct 22 17:48:18 bad systemd[532]: Reached target Timers.
+Oct 22 17:48:18 bad systemd[532]: Reached target Basic System.
+Oct 22 17:48:18 bad systemd[1]: Started User Manager for UID 1000.
+Oct 22 17:48:18 bad systemd[1]: Started Session 3 of user cread.
+Oct 22 17:48:18 bad systemd[532]: Reached target Default.
+Oct 22 17:48:18 bad systemd[532]: Startup finished in 13ms.
+Oct 22 17:48:23 bad systemd[1]: Stopping User Manager for UID 0...
+Oct 22 17:48:23 bad systemd[494]: Stopped target Default.
+Oct 22 17:48:23 bad systemd[494]: Stopped target Basic System.
+Oct 22 17:48:23 bad systemd[494]: Stopped target Sockets.
+Oct 22 17:48:23 bad systemd[494]: Stopped target Timers.
+Oct 22 17:48:23 bad systemd[494]: Stopped target Paths.
+Oct 22 17:48:23 bad systemd[494]: Reached target Shutdown.
+Oct 22 17:48:23 bad systemd[494]: systemd-exit.service: Succeeded.
+Oct 22 17:48:23 bad systemd[494]: Started Exit the Session.
+Oct 22 17:48:23 bad systemd[494]: Reached target Exit the Session.
+Oct 22 17:48:23 bad systemd[1]: user@0.service: Succeeded.
+Oct 22 17:48:23 bad systemd[1]: Stopped User Manager for UID 0.
+Oct 22 17:48:23 bad systemd[1]: Stopping User Runtime Directory /run/user/0...
+Oct 22 17:48:23 bad systemd[532]: run-user-0.mount: Succeeded.
+Oct 22 17:48:23 bad systemd[1]: run-user-0.mount: Succeeded.
+Oct 22 17:48:23 bad systemd[1]: user-runtime-dir@0.service: Succeeded.
+Oct 22 17:48:23 bad systemd[1]: Stopped User Runtime Directory /run/user/0.
+Oct 22 17:48:23 bad systemd[1]: Removed slice User Slice of UID 0.
+Oct 22 17:49:54 bad systemd[1]: Reloading.
+Oct 22 17:49:54 bad systemd[1]: getty@tty1.service: Current command vanished from the unit file, execution of the command list won't be resumed.
+Oct 22 17:49:54 bad systemd[1]: Reloading.
+Oct 22 17:49:54 bad systemd[1]: Reloading.
+Oct 22 17:49:54 bad systemd[1]: Reloading.
+Oct 22 17:49:54 bad systemd[1]: Starting OpenBSD Secure Shell server...
+Oct 22 17:49:54 bad systemd[1]: Started OpenBSD Secure Shell server.
+Oct 22 17:49:54 bad systemd[1]: Reloading.
+Oct 22 17:50:02 bad systemd[1]: Started Session 5 of user cread.
