@@ -8,6 +8,7 @@ import (
 	"os/exec"
 	"syscall"
 	"time"
+	"path/filepath"
 
 	"github.com/docker/docker/pkg/reexec"
 )
@@ -28,8 +29,61 @@ func init() {
 	}
 }
 
+func pivotRoot(newroot string) error {
+	putold := filepath.Join(newroot, "/.pivot_root")
+
+	// bind mount newroot to itself - this is a slight hack
+	// needed to work around a pivot_root requirement
+	if err := syscall.Mount(
+		newroot,
+		newroot,
+		"",
+		syscall.MS_BIND|syscall.MS_REC,
+		"",
+	); err != nil {
+		return err
+	}
+
+	// create putold directory
+	if err := os.MkdirAll(putold, 0700); err != nil {
+		return err
+	}
+
+	// call pivot_root
+	if err := syscall.PivotRoot(newroot, putold); err != nil {
+		return err
+	}
+
+	// ensure current working directory is set to new root
+	if err := os.Chdir("/"); err != nil {
+		return err
+	}
+
+	// umount putold, which now lives at /.pivot_root
+	putold = "/.pivot_root"
+	if err := syscall.Unmount(
+		putold,
+		syscall.MNT_DETACH,
+	); err != nil {
+		return err
+	}
+
+	// remove putold
+	if err := os.RemoveAll(putold); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func nsInitialisation() {
 	fmt.Printf("\n>> namespace setup code goes here <<\n\n")
+	newrootPath := os.Args[1]
+
+	if err := pivotRoot(newrootPath); err != nil {
+		fmt.Printf("Error running pivot_root - %s\n", err)
+		os.Exit(1)
+	}
 	nsRun()
 }
 
@@ -84,7 +138,7 @@ func main() {
 		GidMappings: gidMappings,
 	}
 
-	cmd := reexec.Command("nsInitialisation")
+	cmd := reexec.Command("nsInitialisation", "./root")
 
 	cmd.Stdin = os.Stdin
 	cmd.Stdout = os.Stdout
