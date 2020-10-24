@@ -138,7 +138,7 @@ func main() {
 		GidMappings: gidMappings,
 	}
 
-	cmd := reexec.Command("nsInitialisation", "./root")
+	cmd := reexec.Command("nsInitialisation", "./roots/debian")
 
 	cmd.Stdin = os.Stdin
 	cmd.Stdout = os.Stdout
