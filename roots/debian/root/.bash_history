@@ -18,3 +18,9 @@ mount
 mounts
 mount
 exit
+cat /proc/mounts 
+mount
+man mount
+echo "dsdasd"
+ps
+exit
