@@ -76,9 +76,35 @@ func pivotRoot(newroot string) error {
 	return nil
 }
 
+func mountProc(newroot string) error {
+	source := "proc"
+	target := filepath.Join(newroot, "/proc")
+	fstype := "proc"
+	flags := 0
+	data := ""
+
+	os.MkdirAll(target, 0755)
+	if err := syscall.Mount(
+		source,
+		target,
+		fstype,
+		uintptr(flags),
+		data,
+	); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func nsInitialisation() {
 	fmt.Printf("\n>> namespace setup code goes here <<\n\n")
 	newrootPath := os.Args[1]
+
+	if err := mountProc(newrootPath); err != nil {
+		fmt.Printf("Error mounting /proc - %s\n", err)
+		os.Exit(1)
+	}
 
 	if err := pivotRoot(newrootPath); err != nil {
 		fmt.Printf("Error running pivot_root - %s\n", err)
@@ -93,7 +119,7 @@ func nsRun() {
 		"PS1=`hostname` > ",
 	}
 
-	cmd := exec.Command("/bin/sh")
+	cmd := exec.Command("/bin/bash")
 
 	cmd.Stdin = os.Stdin
 	cmd.Stdout = os.Stdout
